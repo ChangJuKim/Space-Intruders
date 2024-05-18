@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
@@ -7,6 +8,9 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private Rigidbody2D rigidBody;
     public float maxSpeed;
     public float acceleration;
+    public float weaponRemainingCooldown = 0;
+    public float offset;
+    public GameObject bullet;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +21,13 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        HandlePlayerInput();
+    }
+
+    private void HandlePlayerInput()
+    {
         CheckMovement();
+        CheckFiring();
     }
 
     private void CheckMovement()
@@ -34,5 +44,24 @@ public class PlayerScript : MonoBehaviour
         {
             rigidBody.velocity = rigidBody.velocity.normalized * maxSpeed;
         }
+    }
+
+    private void CheckFiring()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            if (weaponRemainingCooldown <= 0)
+            {
+                weaponRemainingCooldown = Constants.WEAPON_COOLDOWN;
+                SpawnBullet();
+            }
+        }
+        weaponRemainingCooldown -= Time.deltaTime;
+    }
+
+    private void SpawnBullet()
+    {
+        Vector3 offsetVector = Vector3.up * offset;
+        Instantiate(bullet, transform.position + offsetVector, transform.rotation);
     }
 }
