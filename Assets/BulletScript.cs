@@ -18,4 +18,8 @@ public class BulletScript : MonoBehaviour
     {
         transform.position += Vector3.up * speed * Time.deltaTime;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+    }
 }

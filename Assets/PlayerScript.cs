@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rigidBody;
-    public float maxSpeed;
+    public FloatVariable maxSpeed;
     public float acceleration;
     public float weaponRemainingCooldown = 0;
     public float offset;
@@ -40,21 +40,18 @@ public class PlayerScript : MonoBehaviour
         {
             rigidBody.velocity += Vector2.right * acceleration * Time.deltaTime;
         }
-        if (rigidBody.velocity.magnitude > maxSpeed)
+        if (rigidBody.velocity.magnitude > maxSpeed.value)
         {
-            rigidBody.velocity = rigidBody.velocity.normalized * maxSpeed;
+            rigidBody.velocity = rigidBody.velocity.normalized * maxSpeed.value;
         }
     }
 
     private void CheckFiring()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && weaponRemainingCooldown <= 0)
         {
-            if (weaponRemainingCooldown <= 0)
-            {
-                weaponRemainingCooldown = Constants.WEAPON_COOLDOWN;
-                SpawnBullet();
-            }
+            weaponRemainingCooldown = Constants.WEAPON_COOLDOWN;
+            SpawnBullet();
         }
         weaponRemainingCooldown -= Time.deltaTime;
     }
