@@ -6,11 +6,9 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rigidBody;
-    public FloatVariable maxSpeed;
-    public float acceleration;
+    public PlayerData playerData;
     public float weaponRemainingCooldown = 0;
     public float offset;
-    public GameObject bullet;
 
     // Start is called before the first frame update
     void Start()
@@ -34,15 +32,15 @@ public class PlayerScript : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            rigidBody.velocity += Vector2.left * acceleration * Time.deltaTime;
+            rigidBody.velocity += Vector2.left * playerData.acceleration * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) 
         {
-            rigidBody.velocity += Vector2.right * acceleration * Time.deltaTime;
+            rigidBody.velocity += Vector2.right * playerData.acceleration * Time.deltaTime;
         }
-        if (rigidBody.velocity.magnitude > maxSpeed.value)
+        if (rigidBody.velocity.magnitude > playerData.maxSpeed)
         {
-            rigidBody.velocity = rigidBody.velocity.normalized * maxSpeed.value;
+            rigidBody.velocity = rigidBody.velocity.normalized * playerData.maxSpeed;
         }
     }
 
@@ -59,6 +57,6 @@ public class PlayerScript : MonoBehaviour
     private void SpawnBullet()
     {
         Vector3 offsetVector = Vector3.up * offset;
-        Instantiate(bullet, transform.position + offsetVector, transform.rotation);
+        Instantiate(playerData.weapon.bullet, transform.position + offsetVector, transform.rotation);
     }
 }
