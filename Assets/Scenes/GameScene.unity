@@ -1035,10 +1035,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 604892273}
-  maxSpeed: 15
-  acceleration: 300
+  playerData: {fileID: 11400000, guid: 7dd70411977ad3644bec0349359f9a4b, type: 2}
   weaponRemainingCooldown: 0
-  bullet: {fileID: 508287500646512949, guid: 97279c408d870ff43b5a76047d9fcb4e, type: 3}
+  offset: 3
 --- !u!50 &604892273
 Rigidbody2D:
   serializedVersion: 4

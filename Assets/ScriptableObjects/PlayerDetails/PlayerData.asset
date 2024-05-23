@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7885626c59f1ac4fad8582336883207, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  health: {fileID: 0}
-  acceleration: {fileID: 0}
-  maxSpeed: {fileID: 0}
-  weapon: {fileID: 0}
+  health: {fileID: 11400000, guid: e49cb23d3aecd324d9c5314c4ef6bc3a, type: 2}
+  acceleration: 100
+  maxSpeed: 20
+  weapon: {fileID: 11400000, guid: 415f420ebad8dd349991a9cf5b53f69b, type: 2}
   currentPosition: {x: 0, y: 0, z: 0}
