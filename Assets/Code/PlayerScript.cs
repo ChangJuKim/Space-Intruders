@@ -34,7 +34,7 @@ public class PlayerScript : MonoBehaviour
         {
             rigidBody.velocity += Vector2.left * playerData.acceleration * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) 
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             rigidBody.velocity += Vector2.right * playerData.acceleration * Time.deltaTime;
         }
