@@ -19,7 +19,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        HandlePlayerInput();
+        //HandlePlayerInput();
     }
 
     private void HandlePlayerInput()
@@ -57,6 +57,6 @@ public class PlayerScript : MonoBehaviour
     private void SpawnBullet()
     {
         Vector3 offsetVector = Vector3.up * offset;
-        Instantiate(playerData.weapon.bullet, transform.position + offsetVector, transform.rotation);
+        Instantiate(playerData.weapon.bulletModel, transform.position + offsetVector, transform.rotation);
     }
 }

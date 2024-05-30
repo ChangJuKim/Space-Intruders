@@ -7,5 +7,5 @@ public class WeaponData : ScriptableObject
 {
     public float cooldown;
     public float damage;
-    public GameObject bullet;
+    public GameObject bulletModel;
 }
