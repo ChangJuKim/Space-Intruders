@@ -9,6 +9,5 @@ public class PlayerData : ScriptableObject
     public HP health;
     public float acceleration;
     public float maxSpeed;
-    public WeaponData weapon;
     public Vector3 currentPosition;
 }

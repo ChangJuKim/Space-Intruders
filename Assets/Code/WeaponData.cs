@@ -6,6 +6,7 @@ using UnityEngine;
 public class WeaponData : ScriptableObject
 {
     public float cooldown;
+    public float baseCooldown;
     public float damage;
     public GameObject bulletModel;
 }
