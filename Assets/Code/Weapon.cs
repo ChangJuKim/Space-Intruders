@@ -9,4 +9,6 @@ public abstract class Weapon : ScriptableObject
     public abstract void Fire(Transform shooterTransform);
     public abstract void DecreaseCooldown(float amount);
 
+    public abstract void SetCooldown(float amount);
+
 }

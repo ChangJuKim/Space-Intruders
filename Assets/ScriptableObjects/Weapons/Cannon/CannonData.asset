@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CannonData
   m_EditorClassIdentifier: 
   cooldown: -0.0007326427
-  baseCooldown: 3
+  baseCooldown: 1
   damage: 80.26
   bulletModel: {fileID: 508287500646512949, guid: 97279c408d870ff43b5a76047d9fcb4e, type: 3}

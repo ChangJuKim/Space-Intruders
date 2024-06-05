@@ -5,10 +5,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    [SerializeField] private Rigidbody2D rigidBody;
     public PlayerData playerData;
-    public float weaponRemainingCooldown = 0;
-    public float offset;
 
     // Start is called before the first frame update
     void Start()

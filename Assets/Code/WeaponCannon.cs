@@ -11,8 +11,8 @@ public class WeaponCannon : Weapon
     {
         if (weaponData.cooldown <= 0)
         {
-            weaponData.cooldown = weaponData.baseCooldown;
             SpawnBullet(transform);
+            SetCooldown(weaponData.baseCooldown);
         }
     }
 
@@ -27,5 +27,10 @@ public class WeaponCannon : Weapon
     private void SpawnBullet(Transform transform)
     {
         Instantiate(weaponData.bulletModel, transform.position + spawnOffset, transform.rotation);
+    }
+
+    public override void SetCooldown(float amount)
+    {
+        weaponData.cooldown = amount;
     }
 }

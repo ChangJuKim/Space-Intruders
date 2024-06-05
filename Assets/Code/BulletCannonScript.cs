@@ -12,7 +12,7 @@ public class BulletScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        direction = new Vector2(Random.Range(-1.0f, 1.0f), 1).normalized;
+        direction = Vector2.up;
         rigidBody.velocity = direction * speed;
     }
 
@@ -21,10 +21,18 @@ public class BulletScript : MonoBehaviour
 
     }
 
+    // TODO: Remove hard coded values and find a better way of checking collision
+    // TODO: Make bullets die off screen instead of on screen
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collided with object");
-        Destroy(collision.gameObject);
-        Destroy(gameObject);
+        if (collision.gameObject.tag == "Wall")
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

@@ -5,13 +5,12 @@ using UnityEngine;
 public class WeaponShooter : MonoBehaviour
 {
     public Weapon weapon;
-    public FloatVariable num;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        weapon.SetCooldown(0);
     }
 
     // Update is called once per frame
