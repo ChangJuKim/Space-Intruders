@@ -1,2 +1,4 @@
 # Space-Intruders
-A game referencing the arcade game "Space Invaders"
+My second project, recreating the arcade game "Space Invaders".
+
+For this project, I am focusing on architecture and learning best practices.
