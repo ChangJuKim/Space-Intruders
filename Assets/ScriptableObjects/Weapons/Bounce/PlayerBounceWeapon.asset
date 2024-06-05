@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c7f691268b802b49b4c62f781f96f7b, type: 3}
   m_Name: PlayerBounceWeapon
   m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: 415f420ebad8dd349991a9cf5b53f69b, type: 2}
-  spawnOffset: {x: 0, y: 2.5, z: 0}
+  weaponData: {fileID: 11400000, guid: 4e496c2c6cd32844e8cce933ebaf2956, type: 2}
+  spawnOffset: {x: 0, y: 3, z: 0}
