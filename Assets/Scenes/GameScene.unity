@@ -1036,10 +1036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4baddc1f094b56d48a15396a9acdcfb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidBody: {fileID: 604892273}
   playerData: {fileID: 11400000, guid: 7dd70411977ad3644bec0349359f9a4b, type: 2}
-  weaponRemainingCooldown: 0
-  offset: 3
 --- !u!50 &604892273
 Rigidbody2D:
   serializedVersion: 4
