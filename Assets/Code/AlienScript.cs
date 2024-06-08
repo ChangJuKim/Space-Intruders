@@ -7,7 +7,9 @@ public class AlienScript : MonoBehaviour
 {
     public FloatVariable moveCooldownBase;
     public FloatVariable jumpDistance;
+    public FloatVariable finishLine;
     private float moveCooldown;
+    public GameEvent alienDestroyEvent;
 
     // Start is called before the first frame update
     void Start()
@@ -24,12 +26,26 @@ public class AlienScript : MonoBehaviour
             transform.position = transform.position + Vector3.down * jumpDistance.value;
             resetCooldown();
         }
+
+        if (transform.position.y <= finishLine.value)
+        {
+            alienDestroyEvent.Raise();
+            Destroy(gameObject);
+        }
     }
 
     private void resetCooldown()
     {
         moveCooldown = moveCooldownBase.value;
     }
+
+    // This function is called when the MonoBehaviour will be destroyed
+    private void OnDestroy()
+    {
+        alienDestroyEvent.Raise();
+    }
+
+
 
 
 }

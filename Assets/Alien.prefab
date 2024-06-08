@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4316060378047887380}
   - component: {fileID: 7609714307722198792}
   - component: {fileID: 6908207226127359017}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Alien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7105776178869365704}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21, y: 12.898622, z: 0}
+  m_LocalPosition: {x: -21, y: 13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -145,3 +145,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveCooldownBase: {fileID: 11400000, guid: fb41286f8a7b0f043bb46b44177e9ca1, type: 2}
   jumpDistance: {fileID: 11400000, guid: dffc84ad27d077b448c34ac01a6d5d76, type: 2}
+  finishLine: {fileID: 11400000, guid: 936f7847100100944b0730d847efd968, type: 2}
+  alienDestroyEvent: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}

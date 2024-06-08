@@ -8,6 +8,8 @@ public class BulletBounceScript : MonoBehaviour
     public Vector2 direction;
     public float speed;
 
+    // TODO: Remove this script somehow and make bullets have a constant feature?
+    // Or make bullets extend from a bullet class that has some standard features? IDK
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class BulletBounceScript : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+
         }
     }
 
