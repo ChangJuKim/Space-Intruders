@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e2a168b2043dca846a435e0bee5d8000
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rigidBody: {instanceID: 0}
+  - playerLossEvent: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
