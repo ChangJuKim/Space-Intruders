@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6039252f0c427a2469c24eb86c08af38, type: 3}
   m_Name: BounceData
   m_EditorClassIdentifier: 
-  cooldown: 0.19365656
-  baseCooldown: 1
+  cooldown: 0
+  baseCooldown: 0.2
   damage: 80.26
   bulletModel: {fileID: 1829093159989556361, guid: 08d9d3a53c65e3046aaa2bdf71d422e2, type: 3}
