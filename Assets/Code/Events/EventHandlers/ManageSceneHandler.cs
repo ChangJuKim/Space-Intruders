@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -62,7 +61,7 @@ public class ManageSceneHandler : MonoBehaviour
         if (loadedScene.IsValid())
         {
             SceneManager.SetActiveScene(loadedScene);
-        } 
+        }
         else
         {
             Debug.Log("Failed to load the scene: " + sceneName);

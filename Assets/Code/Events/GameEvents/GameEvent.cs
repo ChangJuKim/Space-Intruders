@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,22 +6,26 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Game Event", menuName = "ScriptableObjects/GameEvent")]
 public class GameEvent : ScriptableObject
 {
+    public bool oncePerFrame;
+    private int lastFrameRaised = -1;
     private List<GameEventListener> listeners = new List<GameEventListener>();
 
     public void Raise()
     {
-        Debug.Log("Raised. " + listeners.Count + " listeners waiting");
-        for (int i = listeners.Count - 1; i >= 0; i--)
+        if (!oncePerFrame || lastFrameRaised != Time.frameCount)
         {
-            listeners[i].OnEventRaised();
+            for (int i = listeners.Count - 1; i >= 0; i--)
+            {
+                listeners[i].OnEventRaised();
+            }
+
+            lastFrameRaised = Time.frameCount;
         }
     }
 
     public void RegisterListener(GameEventListener listener)
     {
-        Debug.Log("Registering from gameEvent side");
         listeners.Add(listener);
-        Debug.Log(listeners.Count + " listeners registered");
     }
 
     public void UnregisterListener(GameEventListener listener) 

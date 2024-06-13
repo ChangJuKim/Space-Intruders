@@ -8,6 +8,7 @@ public class AlienScript : MonoBehaviour
     public FloatVariable moveCooldownBase;
     public FloatVariable jumpDistance;
     public FloatVariable finishLine;
+    public GameEvent gameOverEvent;
     private float moveCooldown;
 
     // Start is called before the first frame update
@@ -28,6 +29,7 @@ public class AlienScript : MonoBehaviour
 
         if (transform.position.y <= finishLine.value)
         {
+            gameOverEvent.Raise();
             Destroy(gameObject);
         }
     }

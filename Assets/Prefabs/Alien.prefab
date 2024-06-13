@@ -146,4 +146,4 @@ MonoBehaviour:
   moveCooldownBase: {fileID: 11400000, guid: fb41286f8a7b0f043bb46b44177e9ca1, type: 2}
   jumpDistance: {fileID: 11400000, guid: dffc84ad27d077b448c34ac01a6d5d76, type: 2}
   finishLine: {fileID: 11400000, guid: 936f7847100100944b0730d847efd968, type: 2}
-  alienDestroyEvent: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
+  gameOverEvent: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
