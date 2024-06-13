@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b59bb314e7a950e42993c7aeb7bf1d61, type: 3}
   m_Name: QuitGameEvent
   m_EditorClassIdentifier: 
+  oncePerFrame: 1
