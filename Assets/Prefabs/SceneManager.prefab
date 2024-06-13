@@ -44,4 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a81ab372fc1e445877616a13ad68da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverSceneName: PlayerLoseScene
+  gameOverSceneName: {fileID: 11400000, guid: 87d268ac950e89949be9830680d28ad6, type: 2}
+  gameSceneName: {fileID: 11400000, guid: e61a072af4ef3094eb2eb3c3aa8b508b, type: 2}

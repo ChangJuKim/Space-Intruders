@@ -11,7 +11,6 @@ public class GameEventListener : MonoBehaviour
 
     private void OnEnable()
     {
-        Debug.Log("Registering this listener");
         Event.RegisterListener(this);
     }
 
@@ -22,7 +21,6 @@ public class GameEventListener : MonoBehaviour
 
     public void OnEventRaised()
     {
-        Debug.Log("Invoking");
         Response.Invoke();
     }
 }

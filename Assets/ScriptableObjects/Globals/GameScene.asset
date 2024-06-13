@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b59bb314e7a950e42993c7aeb7bf1d61, type: 3}
-  m_Name: GameOverEvent
+  m_Script: {fileID: 11500000, guid: 5a844903147fad4498993f87fe8e309a, type: 3}
+  m_Name: GameScene
   m_EditorClassIdentifier: 
+  value: GameScene

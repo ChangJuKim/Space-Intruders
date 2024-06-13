@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c0a81ab372fc1e445877616a13ad68da
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameOverSceneName: {instanceID: 0}
+  - gameSceneName: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
