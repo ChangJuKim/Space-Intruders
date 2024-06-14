@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class ManageSceneHandler : MonoBehaviour
 {
     public StringVariable managerSceneName;
-    public StringVariable gameOverSceneName;
+    public StringVariable playerVictorySceneName;
+    public StringVariable playerLoseSceneName;
     public StringVariable gameSceneName;
 
     public void UnloadScenesExceptManager()
@@ -23,14 +24,24 @@ public class ManageSceneHandler : MonoBehaviour
         }
     }
 
+    public void ActivateVictoryScene()
+    {
+        LoadSceneAndSetActive(playerVictorySceneName.value);
+    }
+
+    public void DeactivateVictoryScene()
+    {
+        SceneManager.UnloadSceneAsync(playerVictorySceneName.value);
+    }
+
     public void ActivateGameOverScene()
     {
-        LoadSceneAndSetActive(gameOverSceneName.value);
+        LoadSceneAndSetActive(playerLoseSceneName.value);
     }
 
     public void DeactivateGameOverScene()
     {
-        SceneManager.UnloadSceneAsync(gameOverSceneName.value);
+        SceneManager.UnloadSceneAsync(playerLoseSceneName.value);
     }
 
     public void ActivateGameScene()

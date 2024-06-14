@@ -153,6 +153,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1695205874}
+  - {fileID: 1032381028}
   - {fileID: 1578802738}
   - {fileID: 628787921}
   m_Father: {fileID: 0}
@@ -187,7 +188,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   managerSceneName: {fileID: 11400000, guid: 9aa6abd944834d94996910578d641147, type: 2}
-  gameOverSceneName: {fileID: 11400000, guid: 87d268ac950e89949be9830680d28ad6, type: 2}
+  playerVictorySceneName: {fileID: 11400000, guid: 347bde640910d5543a46b6e7f7189349, type: 2}
+  playerLoseSceneName: {fileID: 11400000, guid: 87d268ac950e89949be9830680d28ad6, type: 2}
   gameSceneName: {fileID: 11400000, guid: e61a072af4ef3094eb2eb3c3aa8b508b, type: 2}
 --- !u!4 &359943728
 Transform:
@@ -297,6 +299,78 @@ Transform:
   - {fileID: 1821999668}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1032381027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032381028}
+  - component: {fileID: 1032381029}
+  m_Layer: 0
+  m_Name: PlayerVictoryListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1032381028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032381027}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 13614376}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1032381029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032381027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf88f30713065c4d931a62ca85d73b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 637f8077e0b89ca47a129edd85d0358d, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 359943727}
+        m_TargetAssemblyTypeName: ManageSceneHandler, Assembly-CSharp
+        m_MethodName: ActivateVictoryScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821999667}
+        m_TargetAssemblyTypeName: GameTimeHandler, Assembly-CSharp
+        m_MethodName: PauseTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1578802736
 GameObject:
   m_ObjectHideFlags: 0
