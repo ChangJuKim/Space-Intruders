@@ -31,7 +31,6 @@ public class AlienScript : MonoBehaviour
         if (transform.position.y <= finishLine.value)
         {
             gameOverEvent.Raise();
-            Destroy(gameObject);
         }
     }
 
