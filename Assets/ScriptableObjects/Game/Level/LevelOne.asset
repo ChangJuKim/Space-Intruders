@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df08e059c72e1d24b9816c5b01709d73, type: 3}
-  m_Name: Jump Distance
+  m_Script: {fileID: 11500000, guid: 2c1df74fe2e7913429814d2eb90e5405, type: 3}
+  m_Name: LevelOne
   m_EditorClassIdentifier: 
-  value: 3

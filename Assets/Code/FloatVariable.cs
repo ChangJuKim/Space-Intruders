@@ -8,5 +8,13 @@ public class FloatVariable : ScriptableObject
 {
     public float value;
 
+    public static implicit operator float(FloatVariable floatVariable)
+    {
+        return floatVariable.value;
+    }
 
+    public override string ToString()
+    {
+        return value.ToString();
+    }
 }

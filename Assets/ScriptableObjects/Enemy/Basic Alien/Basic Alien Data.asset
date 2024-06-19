@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982b6658ce6058c4188509913c3cbefb, type: 3}
+  m_Name: Basic Alien Data
+  m_EditorClassIdentifier: 
+  moveCooldown: {fileID: 11400000, guid: fb41286f8a7b0f043bb46b44177e9ca1, type: 2}
+  moveDistance: {fileID: 11400000, guid: dffc84ad27d077b448c34ac01a6d5d76, type: 2}
+  weapon: {fileID: 0}
+  finishLine: {fileID: 11400000, guid: 936f7847100100944b0730d847efd968, type: 2}
