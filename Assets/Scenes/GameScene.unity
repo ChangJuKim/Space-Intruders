@@ -131,6 +131,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -216,6 +232,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -285,6 +317,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -363,6 +407,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -428,6 +484,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6997137082912341685, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -504,6 +576,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -583,6 +667,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -648,6 +744,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -727,6 +839,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -797,6 +921,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -862,6 +998,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6997137082912341685, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -919,6 +1067,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -984,6 +1148,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -1053,6 +1233,14 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6997137082912341685, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -1259,6 +1447,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -1658,6 +1858,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -1736,6 +1948,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -1829,6 +2053,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -1912,6 +2148,14 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -1977,6 +2221,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2115,6 +2371,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2200,6 +2468,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2294,9 +2578,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 596419909}
+  - {fileID: 1502920581}
   - {fileID: 2090409127}
   - {fileID: 2063205105}
-  - {fileID: 1502920581}
   - {fileID: 1340748272}
   - {fileID: 205266879}
   - {fileID: 998772174}
@@ -2397,6 +2681,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2462,6 +2758,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2527,6 +2835,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2592,6 +2916,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2657,6 +2993,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2861,6 +3209,14 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -2930,6 +3286,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6997137082912341685, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -2991,6 +3359,14 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -3076,6 +3452,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -3141,6 +3533,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -3438,6 +3846,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -3558,6 +3978,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -3688,6 +4124,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -3766,6 +4218,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -3831,6 +4295,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -3901,6 +4377,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6997137082912341685, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -3958,6 +4446,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -4032,6 +4532,18 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -4097,6 +4609,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6997137082912341685, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21
@@ -4158,6 +4682,14 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -4237,6 +4769,14 @@ PrefabInstance:
       propertyPath: alienData
       value: 
       objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -4302,6 +4842,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -4372,6 +4928,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -4522,6 +5090,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -4587,6 +5167,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
@@ -4662,6 +5258,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1060483252}
     m_Modifications:
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c0c9590cb1fe3f4a826cfe071272023, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: moveCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: gameOverEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+    - target: {fileID: -1870799009738230331, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
+      propertyPath: alienDeathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: cf9a09c89bcb79d43947f8ac41f7b23c, type: 2}
     - target: {fileID: 6908207226127359017, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
       propertyPath: jumpDistance
       value: 
