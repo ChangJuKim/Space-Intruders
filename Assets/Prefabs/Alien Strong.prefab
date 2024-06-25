@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4679580137444911771}
   - component: {fileID: 6646439745073229055}
   - component: {fileID: 1419303903843657214}
-  - component: {fileID: 4883879354391535030}
+  - component: {fileID: 5159547754541481126}
   m_Layer: 0
-  m_Name: SquareAlien
+  m_Name: Alien Strong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -21.35, y: -4.39, z: 0}
-  m_LocalScale: {x: 0.7535, y: 0.48803437, z: 1}
+  m_LocalScale: {x: 0.84, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93be5b23f038dda4380cff4917290e3e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 61dec09158d2d004e81d94a22c048c5c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.232876, y: 4.404493}
   m_EdgeRadius: 0
---- !u!114 &4883879354391535030
+--- !u!114 &5159547754541481126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6308606573054660747}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3336f10228eec45b90d97cd1c3331b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b8524e1eaaff114694fca0f5fb57d2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   alienData: {fileID: 11400000, guid: f4bfcd0cd62825040b02a1e599343e31, type: 2}

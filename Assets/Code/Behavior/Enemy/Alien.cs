@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Alien : MonoBehaviour
+public abstract class Alien : MonoBehaviour
 {
     public AlienData alienData;
     private float moveCooldown;

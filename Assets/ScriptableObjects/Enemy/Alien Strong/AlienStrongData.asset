@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 982b6658ce6058c4188509913c3cbefb, type: 3}
-  m_Name: SquareAlienData
+  m_Name: AlienStrongData
   m_EditorClassIdentifier: 
-  moveCooldown: {fileID: 11400000, guid: fb41286f8a7b0f043bb46b44177e9ca1, type: 2}
-  moveDistance: {fileID: 11400000, guid: 65c0e9a7264daf34ba31c69b06d0adc4, type: 2}
+  moveCooldown: {fileID: 11400000, guid: 65c0e9a7264daf34ba31c69b06d0adc4, type: 2}
+  moveDistance: {fileID: 11400000, guid: 0a0bb4ac15a04694c98cc00688998316, type: 2}
   weapon: {fileID: 0}
   finishLine: {fileID: 11400000, guid: 936f7847100100944b0730d847efd968, type: 2}
