@@ -7,7 +7,7 @@ using UnityEngine;
 public class GameEvent : ScriptableObject
 {
     public bool oncePerFrame;
-    private int lastFrameRaised = -1;
+    protected int lastFrameRaised = -1;
     private List<GameEventListener> listeners = new List<GameEventListener>();
 
     public void Raise()

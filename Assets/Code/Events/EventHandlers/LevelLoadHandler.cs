@@ -1,18 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelLoadHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void loadLevel(LoadLevelParameters param)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("Loaded level " + param.level + " with difficulty " + param.difficulty);
     }
 }
