@@ -5,6 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "LoadLevelParams", menuName = "ScriptableObjects/Variables/LoadLevelParam")]
 public class LoadLevelParameters : EventParametersBase
 {
-    public int difficulty;
-    public int level;
+    public Alien[] alienSetup;
 }

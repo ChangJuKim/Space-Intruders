@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1080ccfd020c7a4db240b06cbf768e5, type: 3}
+  m_Name: AlienSetupDimensions
+  m_EditorClassIdentifier: 
+  leftX: {fileID: 11400000, guid: d7d9e150fbfc4bf4aa2a10a17e65b7ed, type: 2}
+  rightX: {fileID: 11400000, guid: fc22bd56c6cab8940962801698272ac1, type: 2}
+  topY: {fileID: 11400000, guid: f471467c719f8c64881de54e98301359, type: 2}
+  bottomY: {fileID: 11400000, guid: a1d913a13fff10046937a58e08052f56, type: 2}
+  aliensInRow: {fileID: 11400000, guid: a4d1258cc39a130499dac0d96857813b, type: 2}
+  aliensInCol: {fileID: 11400000, guid: 6743891ab7624804ab78efe2e5b92349, type: 2}
