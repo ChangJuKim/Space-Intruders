@@ -21,10 +21,10 @@ public static class LevelPresets
         }),
         new Level(new int[,]
         {
-            { 1, 0, 0, 0, 1, 1, 1, 1 },
-            { 1, 1, 0, 0, 0, 1, 1, 1 },
-            { 1, 1, 1, 0, 0, 0, 1, 1 },
-            { 1, 1, 1, 1, 0, 0, 0, 1 }
+            { 1, 1, 1, 1, 1, 0, 0, 0 },
+            { 0, 1, 1, 1, 1, 1, 0, 0 },
+            { 0, 0, 1, 1, 1, 1, 1, 0 },
+            { 0, 0, 0, 1, 1, 1, 1, 1 }
         }),
         new Level(new int[,]
         {
@@ -63,7 +63,6 @@ public static class LevelPresets
     public static Level GetRandomLevel()
     {
         int index = UnityEngine.Random.Range(0, levelPresets.GetLength(0));
-        Debug.Log("Getting random level with index " + index);
         return levelPresets[index];
     }
 

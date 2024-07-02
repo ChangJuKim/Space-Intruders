@@ -28,7 +28,6 @@ public class CreateLevel : MonoBehaviour
     public Level LoadLevel()
     {
         Level level = LevelPresets.GetRandomLevel();
-        Debug.Log(level);
         return level;
     }
 
@@ -91,7 +90,6 @@ public class CreateLevel : MonoBehaviour
 
         }
         s += "]";
-        Debug.Log(s);
 
         return aliens;
     }
