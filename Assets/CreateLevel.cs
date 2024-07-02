@@ -1,9 +1,6 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
 
 public class CreateLevel : MonoBehaviour
 {
@@ -17,94 +14,114 @@ public class CreateLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LoadAliens();
+        GenerateLevel();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void GenerateLevel()
     {
-        
+        Level level = LoadLevel();
+        Alien[,] alienPositions = GenerateAliens(level);
+        StartCoroutine(SpawnAliens(alienPositions));
     }
 
-    public void LoadAliens()
+    public Level LoadLevel()
+    {
+        Level level = LevelPresets.GetRandomLevel();
+        Debug.Log(level);
+        return level;
+    }
+
+    public Level LoadLevelManual()
     {
         int numRow = 4;
         int numCols = 6;
         int percentChance = 50;
 
-        int[][] positions = new int[numRow][];
+        int[,] positions = new int[4,6];
 
         for (int i = 0; i < numRow; i++)
         {
-            positions[i] = new int[numCols];
             for (int j = 0; j < numCols; j++)
             {
-                if (UnityEngine.Random.Range(0, 100) < percentChance)
+                if (Random.Range(0, 100) < percentChance)
                 {
-                    positions[i][j] = 1;
+                    positions[i,j] = 1;
                 } 
                 else
                 {
-                    positions[i][j] = 0;
+                    positions[i,j] = 0;
                 }
             }
         }
 
-
-        Alien[][] alienPositions = GenerateAliens(positions);
-        StartCoroutine(SpawnAliens(alienPositions));
+        return new Level(positions);
     }
 
-    private Alien[][] GenerateAliens(int[][] positions)
+    private Alien[,] GenerateAliens(Level level)
     {
-        Alien[][] aliens = new Alien[positions.Length][];
+        int[,] positions = level.getLevel();
+        Alien[,] aliens = new Alien[positions.GetLength(0),positions.GetLength(1)];
 
-        for (int i = 0; i < positions.Length; i++)
+        for (int i = 0; i < positions.GetLength(0); i++)
         {
-            aliens[i] = new Alien[positions[i].Length];
-            for (int j = 0; j < positions[i].Length; j++)
+            for (int j = 0; j < positions.GetLength(1); j++)
             {
-                Debug.Log(positions[i][j]);
-                if (positions[i][j] == 0)
+                if (positions[i, j] == 0)
                 {
-                    aliens[i][j] = null;
+                    aliens[i, j] = null;
                 }
                 else
                 {
-                    aliens[i][j] = alien;
+                    aliens[i, j] = alien;
                 }
             }
         }
+
+        string s = "[";
+        for (int i = 0; i < aliens.GetLength(0); i++)
+        {
+
+            s += i == 0 ? "[" : " [";
+            for (int j = 0; j < aliens.GetLength(1); j++)
+            {
+                s += j == 0 ? aliens[i, j] : ", " + aliens[i, j];
+            }
+            s += "]\n";
+
+        }
+        s += "]";
+        Debug.Log(s);
 
         return aliens;
     }
 
-    private IEnumerator SpawnAliens(Alien[][] aliens)
+    private IEnumerator SpawnAliens(Alien[,] aliens)
     {
-        if (aliens.Length <= 1 || aliens[0].Length <= 1)
+        if (aliens.GetLength(0) <= 1 || aliens.GetLength(1) <= 1)
         {
             yield break;
         }
 
         while (!SceneManager.GetActiveScene().Equals(SceneManager.GetSceneByName("GameScene")))
         {
-            Debug.Log("Active Scene: " + SceneManager.GetActiveScene().name);
             yield return null;
         }
 
-        float xDelta = (float)Mathf.Abs(dimensions.rightX - dimensions.leftX) / (aliens[0].Length - 1);
-        float yDelta = (float)Mathf.Abs(dimensions.bottomY - dimensions.topY) / (aliens.Length - 1);
+        float xDelta = (float)Mathf.Abs(dimensions.rightX - dimensions.leftX) / (aliens.GetLength(1) - 1);
+        float yDelta = (float)Mathf.Abs(dimensions.bottomY - dimensions.topY) / (aliens.GetLength(0) - 1);
 
-        for (int i = 0; i < aliens.Length; i++)
+        
+        for (int i = 0; i < aliens.GetLength(0); i++)
         {
-            float y = dimensions.bottomY + i * yDelta;
-            for (int j = 0; j < aliens[i].Length; j++)
+            float y = dimensions.topY - i * yDelta;
+            for (int j = 0; j < aliens.GetLength(1); j++)
             {
                 float x = dimensions.leftX + j * xDelta;
 
-                if (aliens[i][j] != null)
+                if (aliens[i, j] != null)
                 {
-                    Instantiate(aliens[i][j], new Vector3(x, y, 0), transform.rotation, this.transform);
+                    Instantiate(aliens[i, j], new Vector3(x, y, 0), transform.rotation, this.transform);
                 }
             }
         }
