@@ -163,5 +163,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 1795563138822956574}
   direction: {x: 0, y: 0}
-  speed: 14
+  speed: 15
   playerLossEvent: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}

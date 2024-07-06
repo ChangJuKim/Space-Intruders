@@ -35,7 +35,7 @@ public class CreateLevel : MonoBehaviour
     {
         int numRow = 4;
         int numCols = 6;
-        int percentChance = 50;
+        int percentChance = 70;
 
         int[,] positions = new int[4,6];
 

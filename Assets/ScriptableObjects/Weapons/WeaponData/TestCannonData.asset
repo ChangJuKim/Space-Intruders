@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31778b5e79624a4428ff90202cead364, type: 3}
-  m_Name: LevelSetup1
+  m_Script: {fileID: 11500000, guid: 6039252f0c427a2469c24eb86c08af38, type: 3}
+  m_Name: TestCannonData
   m_EditorClassIdentifier: 
-  positions: []
+  cooldown: 0
+  baseCooldown: 0.1
+  damage: 0
+  bulletModel: {fileID: 508287500646512949, guid: 97279c408d870ff43b5a76047d9fcb4e, type: 3}

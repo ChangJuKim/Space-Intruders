@@ -29,7 +29,7 @@ public class BulletScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else
+        else if (collision.gameObject.tag != "Player")
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
