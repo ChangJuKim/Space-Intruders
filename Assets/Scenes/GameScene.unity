@@ -2549,7 +2549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: {fileID: 0}
-  alien: {fileID: 5159547754541481126, guid: 1e25fbf962c853b4fa3aab9fd2d833b6, type: 3}
+  alien: {fileID: 7054477349365905549, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
   dimensions: {fileID: 11400000, guid: fafeca009268ebf4bb5e580c55a115b7, type: 2}
 --- !u!1001 &1090616572
 PrefabInstance:
