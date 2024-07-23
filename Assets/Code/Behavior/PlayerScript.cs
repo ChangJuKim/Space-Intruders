@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    public PlayerData playerData;
+    public PlayerStats playerData;
 
     // Start is called before the first frame update
     void Start()

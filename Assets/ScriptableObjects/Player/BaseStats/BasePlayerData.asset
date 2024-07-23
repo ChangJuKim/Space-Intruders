@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7885626c59f1ac4fad8582336883207, type: 3}
-  m_Name: PlayerData
+  m_Name: BasePlayerData
   m_EditorClassIdentifier: 
-  health: {fileID: 11400000, guid: e49cb23d3aecd324d9c5314c4ef6bc3a, type: 2}
-  acceleration: {fileID: 11400000, guid: e39300e67756243939ea1408b1df19ed, type: 2}
-  maxSpeed: {fileID: 11400000, guid: 6dc5cb56dbc8e7441a3871601b540a67, type: 2}
+  health: {fileID: 11400000, guid: 58673bf3dfb459a4296c534c88ce3779, type: 2}
+  acceleration: {fileID: 11400000, guid: 377ac7711ea929a4987954e372e3db7b, type: 2}
+  maxSpeed: {fileID: 11400000, guid: 056639e15c3da7247b94afcf256aac6f, type: 2}
   currentPosition: {x: 0, y: 0, z: 0}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Alien : MonoBehaviour
 {
-    public AlienData alienData;
+    public AlienStats alienData;
     private float moveCooldown;
     public GameEvent gameOverEvent;
     public GameEvent alienDeathEvent;

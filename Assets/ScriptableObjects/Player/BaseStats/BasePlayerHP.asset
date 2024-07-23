@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df08e059c72e1d24b9816c5b01709d73, type: 3}
-  m_Name: MaxSpeed
+  m_Script: {fileID: 11500000, guid: 66645281de957ce48b499dae025a7f44, type: 3}
+  m_Name: BasePlayerHP
   m_EditorClassIdentifier: 
-  value: 20
+  hp: {fileID: 11400000, guid: 4a5a8715e099f0740ab16f0da6dc4652, type: 2}
