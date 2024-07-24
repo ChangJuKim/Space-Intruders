@@ -11,4 +11,14 @@ public class HP : ScriptableObject
     {
         hp.value -= damage;
     }
+
+    public void IncreaseHP(float bonus)
+    {
+        hp.value += bonus;
+    }
+
+    public void ResetTo(HP other)
+    {
+        hp.ResetTo(other.hp);
+    }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New AlienStats", menuName = "ScriptableObjects/AlienStats")]
-public class AlienStats : ScriptableObject
+public class AlienStats : CharacterStats
 {
     public FloatVariable moveCooldown;
     public FloatVariable moveDistance;

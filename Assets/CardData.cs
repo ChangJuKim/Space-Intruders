@@ -9,7 +9,7 @@ public enum CardType
 }
 
 [CreateAssetMenu(fileName = "New Card", menuName = "ScriptableObjects/Card")]
-public class Card : ScriptableObject
+public class CardData : ScriptableObject
 {
     public new string name;
     [TextArea(1,3)]
@@ -20,8 +20,18 @@ public class Card : ScriptableObject
 
     public CardType cardType;
 
+    [SerializeReference]
+    public ICardEffect effect;
+
     public void Print()
     {
         Debug.Log("(" + cardType + ") " + name + ": " + desc);
+    }
+
+    public void PerformEffect()
+    {
+        Print();
+        effect?.PerformEffect();
+
     }
 }

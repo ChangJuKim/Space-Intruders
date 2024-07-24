@@ -826,7 +826,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1000391063425956790}
   - component: {fileID: 3538961741840315630}
-  - component: {fileID: 6367424500001420174}
   m_Layer: 5
   m_Name: Card Prefab
   m_TagString: Untagged
@@ -872,16 +871,5 @@ MonoBehaviour:
   spriteImage: {fileID: 8509648244637611248}
   bgSpriteImage: {fileID: 505247719496467455}
   cardType: 0
---- !u!114 &6367424500001420174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6952505654198016946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46758bae0dfb58945a44fe72d0ef052c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHP: {fileID: 11400000, guid: 5e20562358008b14f81e472b6e9215fd, type: 2}
+  playerStats: {fileID: 0}
+  startGameEvent: {fileID: 0}

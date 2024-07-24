@@ -17,4 +17,9 @@ public class FloatVariable : ScriptableObject
     {
         return value.ToString();
     }
+
+    public void ResetTo(float other)
+    {
+        value = other;
+    }
 }

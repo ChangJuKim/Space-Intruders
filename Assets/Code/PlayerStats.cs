@@ -4,9 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New PlayerStats", menuName = "ScriptableObjects/PlayerStats")]
-public class PlayerStats : ScriptableObject
+public class PlayerStats : CharacterStats
 {
-    public HP health;
     public FloatVariable acceleration;
     public FloatVariable maxSpeed;
     public Vector3 currentPosition;
