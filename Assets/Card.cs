@@ -15,7 +15,6 @@ public class Card : MonoBehaviour, IPointerClickHandler
     public Image bgSpriteImage;
     public CardType cardType;
 
-    public PlayerStats playerStats;
     public GameEvent startGameEvent;
 
     // Start is called before the first frame update

@@ -18,7 +18,7 @@ public class CardDataEditor : Editor
 
     public override void OnInspectorGUI()
     {
-        CardData myCard = (CardData)target; 
+        CardData myCard = (CardData)target;
 
         DrawDefaultInspector();
 
@@ -28,7 +28,7 @@ public class CardDataEditor : Editor
         if (prop == null)
         {
             Debug.LogError("CardData does not have property \"effect\"");
-        } 
+        }
         else if ((prop.isExpanded = EditorGUILayout.Foldout(prop.isExpanded, prop.displayName)))
         {
             EditorGUI.indentLevel++;

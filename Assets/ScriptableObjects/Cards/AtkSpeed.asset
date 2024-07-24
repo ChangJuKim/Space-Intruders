@@ -17,3 +17,12 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 2ecd8b6f65e739c4782313bf7fc73357, type: 3}
   bgSprite: {fileID: 21300000, guid: 154268ffb678f2e44b1ce579d1497fba, type: 3}
   cardType: 0
+  effect:
+    rid: 7939299142858440708
+  references:
+    version: 2
+    RefIds:
+    - rid: 7939299142858440708
+      type: {class: EffectIncreaseHP, ns: , asm: Assembly-CSharp}
+      data:
+        hp: {fileID: 11400000, guid: e49cb23d3aecd324d9c5314c4ef6bc3a, type: 2}

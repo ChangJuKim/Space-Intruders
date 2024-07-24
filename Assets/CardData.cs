@@ -30,8 +30,6 @@ public class CardData : ScriptableObject
 
     public void PerformEffect()
     {
-        Print();
         effect?.PerformEffect();
-
     }
 }

@@ -10,22 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 333324229f4f45a4f996b47cefb2b2d3, type: 3}
-  m_Name: Health
+  m_Name: ChangeWeapon
   m_EditorClassIdentifier: 
-  name: + Health
-  desc: 'Increases health... but doesn''t do anything cause enemies don''t fire back.
-
-    Note:
-    DOESN''T DO ANYTHING! LITERALLY!'
-  sprite: {fileID: 21300000, guid: 43fbbc4923b7e8241a39438dc66639a8, type: 3}
-  bgSprite: {fileID: 21300000, guid: 7ad40c4df9dbb7e4ea118bbd0a9bbfed, type: 3}
+  name: 
+  desc: 
+  sprite: {fileID: 0}
+  bgSprite: {fileID: 0}
   cardType: 0
   effect:
-    rid: 7939299142858440707
+    rid: 7939299142858440705
   references:
     version: 2
     RefIds:
-    - rid: 7939299142858440707
-      type: {class: EffectIncreaseHP, ns: , asm: Assembly-CSharp}
+    - rid: 7939299142858440705
+      type: {class: CardEffectIncreaseHP, ns: , asm: Assembly-CSharp}
       data:
         hp: {fileID: 11400000, guid: e49cb23d3aecd324d9c5314c4ef6bc3a, type: 2}
