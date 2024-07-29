@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 333324229f4f45a4f996b47cefb2b2d3, type: 3}
-  m_Name: ChangeWeapon
+  m_Name: New Card
   m_EditorClassIdentifier: 
   name: 
   desc: 
@@ -18,11 +18,9 @@ MonoBehaviour:
   bgSprite: {fileID: 0}
   cardType: 0
   effect:
-    rid: 7939299142858440705
+    rid: -2
   references:
     version: 2
     RefIds:
-    - rid: 7939299142858440705
-      type: {class: CardEffectIncreaseHP, ns: , asm: Assembly-CSharp}
-      data:
-        hp: {fileID: 11400000, guid: e49cb23d3aecd324d9c5314c4ef6bc3a, type: 2}
+    - rid: -2
+      type: {class: , ns: , asm: }

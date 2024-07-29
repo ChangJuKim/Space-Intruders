@@ -4,11 +4,32 @@ using UnityEngine;
 
 public abstract class Weapon : ScriptableObject
 {
+    public Vector3 spawnOffset;
     public WeaponData weaponData;
 
-    public abstract void Fire(Transform shooterTransform);
-    public abstract void DecreaseCooldown(float amount);
+    public void Fire(Transform transform)
+    {
+        if (weaponData.cooldown <= 0)
+        {
+            SpawnBullet(transform);
+            SetCooldown(weaponData.baseCooldown);
+        }
+    }
+    public void DecreaseCooldown(float amount)
+    {
+        if (weaponData.cooldown > 0)
+        {
+            weaponData.cooldown -= amount;
+        }
+    }
 
-    public abstract void SetCooldown(float amount);
+    private void SpawnBullet(Transform transform)
+    {
+        Instantiate(weaponData.bulletModel, transform.position + spawnOffset, transform.rotation);
+    }
 
+    public void SetCooldown(float amount)
+    {
+        weaponData.cooldown = amount;
+    }
 }

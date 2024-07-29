@@ -9,6 +9,6 @@ public class EffectIncreaseHP : ICardEffect
     public void PerformEffect()
     {
         hp.IncreaseHP(2);
-        Debug.Log("Hello!");
+        Debug.Log("You increased HP!");
     }
 }

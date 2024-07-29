@@ -23,6 +23,11 @@ public class WeaponShooter : MonoBehaviour
         }
     }
 
+    public void SwapWeapon(Weapon other)
+    {
+        weapon = other;
+    }
+
 
 
 }

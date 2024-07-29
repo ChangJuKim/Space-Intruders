@@ -15,8 +15,9 @@ MonoBehaviour:
   name: + Health
   desc: 'Increases health... but doesn''t do anything cause enemies don''t fire back.
 
-    Note:
-    DOESN''T DO ANYTHING! LITERALLY!'
+
+    DOES
+    NOTHING'
   sprite: {fileID: 21300000, guid: 43fbbc4923b7e8241a39438dc66639a8, type: 3}
   bgSprite: {fileID: 21300000, guid: 7ad40c4df9dbb7e4ea118bbd0a9bbfed, type: 3}
   cardType: 0

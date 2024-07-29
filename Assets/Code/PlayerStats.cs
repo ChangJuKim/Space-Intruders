@@ -9,6 +9,7 @@ public class PlayerStats : CharacterStats
     public FloatVariable acceleration;
     public FloatVariable maxSpeed;
     public Vector3 currentPosition;
+    public Weapon weapon;
 
     public void ResetTo(PlayerStats baseStats)
     {
