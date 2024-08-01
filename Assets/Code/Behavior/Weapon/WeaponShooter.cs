@@ -13,8 +13,7 @@ public class WeaponShooter : MonoBehaviour
         weapon.SetCooldown(0);
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         weapon.DecreaseCooldown(Time.deltaTime);
         if (Input.GetKey(KeyCode.Space))

@@ -6,8 +6,11 @@ using UnityEngine;
 public abstract class Weapon : ScriptableObject
 {
     public Vector3 spawnOffset;
-    public float cooldown;
-    public float baseCooldown;
+
+    public AttackSpeed attackSpeed;
+    private float cooldown;
+    private float baseCooldown;
+
     public float damage;
     public GameObject bulletModel;
 
@@ -41,12 +44,15 @@ public abstract class Weapon : ScriptableObject
     {
         if (other != null)
         {
+            cooldown = 0;
+            attackSpeed.ResetTo(other.attackSpeed);
+            baseCooldown = attackSpeed.GetCooldown();
+
             spawnOffset = other.spawnOffset;
-            cooldown = other.cooldown;
-            baseCooldown = other.baseCooldown;
             damage = other.damage;
 
             getBulletScript().ResetTo();
+
         } 
         else
         {
