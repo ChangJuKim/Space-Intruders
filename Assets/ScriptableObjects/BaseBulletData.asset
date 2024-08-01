@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c7f691268b802b49b4c62f781f96f7b, type: 3}
-  m_Name: TestWeapon
+  m_Script: {fileID: 11500000, guid: 036dba459eb85044080c030ae0f177ca, type: 3}
+  m_Name: BaseBulletData
   m_EditorClassIdentifier: 
-  spawnOffset: {x: 0, y: 0, z: 0}
-  weaponData: {fileID: 0}
+  direction: {x: 0, y: 0}
+  speed: 15
+  isBounce: 0
+  firingAngle: 0

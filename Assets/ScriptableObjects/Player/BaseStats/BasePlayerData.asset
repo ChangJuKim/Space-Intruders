@@ -16,3 +16,4 @@ MonoBehaviour:
   acceleration: {fileID: 11400000, guid: 377ac7711ea929a4987954e372e3db7b, type: 2}
   maxSpeed: {fileID: 11400000, guid: 056639e15c3da7247b94afcf256aac6f, type: 2}
   currentPosition: {x: 0, y: 0, z: 0}
+  weapon: {fileID: 11400000, guid: 7c8cb38321abaa747bb4f5a9dfc3c41f, type: 2}

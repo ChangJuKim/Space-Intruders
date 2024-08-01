@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6039252f0c427a2469c24eb86c08af38, type: 3}
-  m_Name: CannonData
+  m_Script: {fileID: 11500000, guid: 036dba459eb85044080c030ae0f177ca, type: 3}
+  m_Name: PlayerBulletData
   m_EditorClassIdentifier: 
-  cooldown: 0.1923676
-  baseCooldown: 0.2
-  damage: 80.26
-  bulletModel: {fileID: 508287500646512949, guid: 97279c408d870ff43b5a76047d9fcb4e, type: 3}
+  speed: 0
+  isBounce: 0
+  firingAngle: 0

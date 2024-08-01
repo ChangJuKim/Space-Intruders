@@ -7,6 +7,8 @@ public class PlayerScript : MonoBehaviour
 {
     public PlayerStats playerData;
 
+    public KeyboardMover keyboardMover;
+
     // Start is called before the first frame update
     void Start()
     {

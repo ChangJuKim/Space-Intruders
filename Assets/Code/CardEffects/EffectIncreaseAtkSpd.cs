@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class EffectIncreaseAtkSpd : ICardEffect
 {
+    public Weapon weapon;
+    public float amount;
 
     public void PerformEffect()
     {
-        Debug.Log("You chose attack speed!");
+        weapon.baseCooldown -= amount;
     }
 }

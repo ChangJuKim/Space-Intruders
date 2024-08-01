@@ -1476,6 +1476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: 7dd70411977ad3644bec0349359f9a4b, type: 2}
+  keyboardMover: {fileID: 604892275}
 --- !u!50 &604892273
 Rigidbody2D:
   serializedVersion: 4
@@ -1579,7 +1580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1717beeb800960749b1007408531dd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 11400000, guid: 7c8cb38321abaa747bb4f5a9dfc3c41f, type: 2}
+  weapon: {fileID: 11400000, guid: 3d0fb4b672e45f7418ab96c51b3bdf7d, type: 2}
 --- !u!61 &604892277
 BoxCollider2D:
   m_ObjectHideFlags: 0

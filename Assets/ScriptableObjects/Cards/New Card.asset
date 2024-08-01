@@ -18,9 +18,13 @@ MonoBehaviour:
   bgSprite: {fileID: 0}
   cardType: 0
   effect:
-    rid: -2
+    rid: 7939299142858440719
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    - rid: 7939299142858440719
+      type: {class: EffectSwapWeapon, ns: , asm: Assembly-CSharp}
+      data:
+        shooter: {fileID: 0}
+        weapon1: {fileID: 11400000, guid: 7c8cb38321abaa747bb4f5a9dfc3c41f, type: 2}
+        weapon2: {fileID: 11400000, guid: 3d0fb4b672e45f7418ab96c51b3bdf7d, type: 2}

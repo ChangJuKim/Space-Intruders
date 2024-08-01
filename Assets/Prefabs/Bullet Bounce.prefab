@@ -162,6 +162,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 1795563138822956574}
-  direction: {x: 0, y: 0}
   speed: 15
+  isBounce: 0
+  firingAngle: 0
   playerLossEvent: {fileID: 11400000, guid: ac9cbb8aff5f34044b064d360a42a5b3, type: 2}
+  bulletData: {fileID: 11400000, guid: 02def461a63d50642927c5ceda024275, type: 2}
+  baseBulletData: {fileID: 11400000, guid: ba4cba3cf6b84b0419379a096c06b241, type: 2}

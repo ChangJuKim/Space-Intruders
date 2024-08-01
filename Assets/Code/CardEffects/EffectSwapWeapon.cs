@@ -2,21 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EffectSwapWeapon : ICardEffect
+public class EffectAddBounce : ICardEffect
 {
-    public WeaponShooter shooter;
-    public Weapon weapon1;
-    public Weapon weapon2;
-    
+    public Weapon weapon;
+    // Total variation in degrees
+    public float firingAngle;
 
     public void PerformEffect()
     {
-        if (shooter.weapon != weapon1)
+        BulletScript bulletScript = weapon.getBulletScript();
+        if (bulletScript != null)
         {
-            shooter.SwapWeapon(weapon1);
-        } else
-        {
-            shooter.SwapWeapon(weapon2);
+            bool hasBounce = bulletScript.toggleBounce();
+            bulletScript.bulletData.firingAngle = hasBounce ? firingAngle : 0;
         }
     }
 }

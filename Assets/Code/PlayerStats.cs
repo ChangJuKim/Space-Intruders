@@ -11,11 +11,13 @@ public class PlayerStats : CharacterStats
     public Vector3 currentPosition;
     public Weapon weapon;
 
-    public void ResetTo(PlayerStats baseStats)
+    public void ResetTo(PlayerStats other)
     {
-        health.hp.value = baseStats.health.hp.value;
-        acceleration.value = baseStats.acceleration.value;
-        maxSpeed.value = baseStats.maxSpeed.value;
-        currentPosition = baseStats.currentPosition;
+        Debug.Log("Reset player stats");
+        health.hp.value = other.health.hp.value;
+        acceleration.value = other.acceleration.value;
+        maxSpeed.value = other.maxSpeed.value;
+        currentPosition = other.currentPosition;
+        weapon.ResetTo(other.weapon);
     }
 }
