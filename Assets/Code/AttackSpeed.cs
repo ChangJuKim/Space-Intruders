@@ -44,7 +44,7 @@ public class AttackSpeed : ScriptableObject
     public void DecreaseBonusAttackSpeed(float percentage)
     {
         // Can't decrease by less than 0.01
-        percentage = Mathf.Max(-99.99f, Mathf.Abs(percentage) * -1);
+        percentage = Mathf.Max(-99f, Mathf.Abs(percentage) * -1);
         CalculateModifier(percentage);
     }
 
@@ -58,7 +58,7 @@ public class AttackSpeed : ScriptableObject
     // Negative percentage means decrease, positive means increase
     private void CalculateModifier(float percentage)
     {
-        float newMultiplier = modifier * (1 + percentage);
+        float newMultiplier = modifier * (1 + percentage / 100);
 
         if (newMultiplier > 0.6)
         {
