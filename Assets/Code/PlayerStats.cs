@@ -6,8 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New PlayerStats", menuName = "ScriptableObjects/PlayerStats")]
 public class PlayerStats : CharacterStats
 {
-    public FloatVariable acceleration;
-    public FloatVariable maxSpeed;
+    public FloatVariable moveSpeed;
     public Vector3 currentPosition;
     public Weapon weapon;
 
@@ -15,8 +14,7 @@ public class PlayerStats : CharacterStats
     {
         Debug.Log("Reset player stats");
         health.hp.value = other.health.hp.value;
-        acceleration.value = other.acceleration.value;
-        maxSpeed.value = other.maxSpeed.value;
+        moveSpeed.value = other.moveSpeed.value;
         currentPosition = other.currentPosition;
         weapon.ResetTo(other.weapon);
     }

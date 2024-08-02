@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AtkSpeed
   m_EditorClassIdentifier: 
   name: + Attack Speed
-  desc: Improves your attack speed.
+  desc: -0.1 weapon cooldown
   sprite: {fileID: 21300000, guid: 2ecd8b6f65e739c4782313bf7fc73357, type: 3}
   bgSprite: {fileID: 21300000, guid: 154268ffb678f2e44b1ce579d1497fba, type: 3}
   cardType: 0
@@ -25,5 +25,5 @@ MonoBehaviour:
     - rid: 7939299142858440721
       type: {class: EffectIncreaseAtkSpd, ns: , asm: Assembly-CSharp}
       data:
-        weapon: {fileID: 0}
-        amount: 0
+        weapon: {fileID: 11400000, guid: 3d0fb4b672e45f7418ab96c51b3bdf7d, type: 2}
+        amount: 0.1

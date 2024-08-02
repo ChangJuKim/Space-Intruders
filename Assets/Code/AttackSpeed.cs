@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Attack Speed", menuName = "ScriptableObjects/Stats/AttackSpeed")]
 public class AttackSpeed : ScriptableObject
 {
-    public FloatVariable baseAttackSpeed;
-    public FloatVariable attackSpeedRatio;
+    public float baseAttackSpeed;
+    public float attackSpeedRatio;
 
     private float bonusAttackSpeed; // Additive bonuses
     private float modifier; // Multiplicative. Mostly only used with debuffs
@@ -23,15 +23,6 @@ public class AttackSpeed : ScriptableObject
     {
         CalculateCooldown();
         return weaponCooldown;
-    }
-
-    private void CalculateCooldown()
-    {
-        float attackSpeed = (baseAttackSpeed + (attackSpeedRatio * bonusAttackSpeed / 100)) * modifier;
-        // Hard cap of one attack every 20 seconds
-        // You know, just to cover my back if I create some crazy cards
-        attackSpeed = Mathf.Max(attackSpeed, 0.05f);
-        weaponCooldown = 1 / attackSpeed;
     }
 
     // Adding attack speed is additive
@@ -55,6 +46,15 @@ public class AttackSpeed : ScriptableObject
         CalculateModifier(percentage);
     }
 
+    private void CalculateCooldown()
+    {
+        float attackSpeed = (baseAttackSpeed + (attackSpeedRatio * bonusAttackSpeed / 100)) * modifier;
+        // Hard floor of one attack every 20 seconds
+        // You know, just to cover my back if I create some crazy cards
+        attackSpeed = Mathf.Max(attackSpeed, 0.05f);
+        weaponCooldown = 1 / attackSpeed;
+    }
+
     // Negative percentage means decrease, positive means increase
     private void CalculateModifier(float percentage)
     {
@@ -76,8 +76,8 @@ public class AttackSpeed : ScriptableObject
 
     public void ResetTo(AttackSpeed other)
     {
-        baseAttackSpeed.value = other.baseAttackSpeed.value;
-        attackSpeedRatio.value = other.attackSpeedRatio.value;
+        baseAttackSpeed = other.baseAttackSpeed;
+        attackSpeedRatio = other.attackSpeedRatio;
         bonusAttackSpeed = other.bonusAttackSpeed;
         modifier = other.modifier;
         CalculateCooldown();

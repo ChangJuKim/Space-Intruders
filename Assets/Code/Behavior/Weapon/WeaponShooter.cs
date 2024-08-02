@@ -13,7 +13,7 @@ public class WeaponShooter : MonoBehaviour
         weapon.SetCooldown(0);
     }
 
-    void FixedUpdate()
+    void Update()
     {
         weapon.DecreaseCooldown(Time.deltaTime);
         if (Input.GetKey(KeyCode.Space))

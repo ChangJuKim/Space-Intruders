@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   health: {fileID: 11400000, guid: e49cb23d3aecd324d9c5314c4ef6bc3a, type: 2}
-  acceleration: {fileID: 11400000, guid: e39300e67756243939ea1408b1df19ed, type: 2}
-  maxSpeed: {fileID: 11400000, guid: 6dc5cb56dbc8e7441a3871601b540a67, type: 2}
+  moveSpeed: {fileID: 11400000, guid: e39300e67756243939ea1408b1df19ed, type: 2}
   currentPosition: {x: 0, y: 0, z: 0}
   weapon: {fileID: 11400000, guid: 3d0fb4b672e45f7418ab96c51b3bdf7d, type: 2}

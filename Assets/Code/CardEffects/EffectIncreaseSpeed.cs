@@ -5,9 +5,10 @@ using UnityEngine;
 public class EffectIncreaseSpeed : ICardEffect
 {
     public FloatVariable speed;
+    public float amount;
 
     public void PerformEffect()
     {
-        speed.value += 1;
+        speed.value += amount;
     }
 }

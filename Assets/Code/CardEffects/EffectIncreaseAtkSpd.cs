@@ -10,6 +10,6 @@ public class EffectIncreaseAtkSpd : ICardEffect
 
     public void PerformEffect()
     {
-        weapon.baseCooldown -= amount;
+        weapon.IncreaseAttackSpeed(amount);
     }
 }

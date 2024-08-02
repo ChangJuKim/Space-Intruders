@@ -22,6 +22,7 @@ public abstract class Weapon : ScriptableObject
             SetCooldown(baseCooldown);
         }
     }
+
     public void DecreaseCooldown(float amount)
     {
         if (cooldown > 0)
@@ -71,5 +72,20 @@ public abstract class Weapon : ScriptableObject
         {
             throw new NullReferenceException("Weapon unable to get BulletScript");
         }
+    }
+
+    // TODO: Need to fix this architecture
+    public void IncreaseAttackSpeed(float percent)
+    {
+        attackSpeed.AddBonusAttackSpeed(percent);
+        baseCooldown = attackSpeed.GetCooldown();
+        Debug.Log("New cooldown: " + baseCooldown);
+    }
+
+    // TODO: Need to fix this architecture
+    public void DecreaseAttackSpeed(float percent)
+    {
+        attackSpeed.DecreaseBonusAttackSpeed(percent);
+        baseCooldown = attackSpeed.GetCooldown();
     }
 }

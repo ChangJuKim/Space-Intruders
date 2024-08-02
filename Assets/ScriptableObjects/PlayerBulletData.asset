@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036dba459eb85044080c030ae0f177ca, type: 3}
   m_Name: PlayerBulletData
   m_EditorClassIdentifier: 
-  speed: 0
-  isBounce: 0
-  firingAngle: 0
+  speed: 15
+  isBounce: 1
+  firingAngle: 60

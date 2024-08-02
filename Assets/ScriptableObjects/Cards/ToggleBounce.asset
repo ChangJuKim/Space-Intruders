@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 333324229f4f45a4f996b47cefb2b2d3, type: 3}
   m_Name: ToggleBounce
   m_EditorClassIdentifier: 
-  name: Switch Weapon
-  desc: Swaps your weapon
+  name: Toggle Bounce
+  desc: 'If unbouncy: makes bullet bouncy, +60 angle
+
+    If bouncy: makes bullet
+    unbouncy, -60 angle'
   sprite: {fileID: 21300000, guid: 75d6216fb49e52e48b45a6ea775c63f4, type: 3}
   bgSprite: {fileID: 21300000, guid: f8399d5f637833b4a8c6898b3ff5efe2, type: 3}
   cardType: 0

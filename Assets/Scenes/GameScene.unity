@@ -1561,7 +1561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454ca9a99f2fc42fd81fac4eec7fcfbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveRate: {fileID: 11400000, guid: 37ada70ef54412b45b5d2f5f368ce17d, type: 2}
+  MoveRate: {fileID: 11400000, guid: e39300e67756243939ea1408b1df19ed, type: 2}
   Horizontal:
     Positive: 100
     Negative: 97

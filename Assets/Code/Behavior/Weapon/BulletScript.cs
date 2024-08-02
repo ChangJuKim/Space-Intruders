@@ -19,7 +19,6 @@ public class BulletScript : MonoBehaviour
     void Start()
     {
         direction = getDirection();
-        Debug.Log("Direction: (" + direction.x + ", " + direction.y + ")");
         rigidBody.velocity = direction * bulletData.speed;
     }
 

@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: PlayerWeapon
   m_EditorClassIdentifier: 
   spawnOffset: {x: 0, y: 3, z: 0}
-  cooldown: 0
-  baseCooldown: 0.2
-  damage: 3
+  attackSpeed: {fileID: 11400000, guid: 2c2503f60bdc9dd44bd470efb174e592, type: 2}
+  damage: 1
   bulletModel: {fileID: 1829093159989556361, guid: 08d9d3a53c65e3046aaa2bdf71d422e2, type: 3}
