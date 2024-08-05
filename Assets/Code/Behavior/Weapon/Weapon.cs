@@ -79,7 +79,6 @@ public abstract class Weapon : ScriptableObject
     {
         attackSpeed.AddBonusAttackSpeed(percent);
         baseCooldown = attackSpeed.GetCooldown();
-        Debug.Log("New cooldown: " + baseCooldown);
     }
 
     // TODO: Need to fix this architecture
