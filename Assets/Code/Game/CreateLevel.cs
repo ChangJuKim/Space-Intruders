@@ -31,32 +31,6 @@ public class CreateLevel : MonoBehaviour
         return level;
     }
 
-    public Level LoadLevelManual()
-    {
-        int numRow = 4;
-        int numCols = 6;
-        int percentChance = 70;
-
-        int[,] positions = new int[4,6];
-
-        for (int i = 0; i < numRow; i++)
-        {
-            for (int j = 0; j < numCols; j++)
-            {
-                if (Random.Range(0, 100) < percentChance)
-                {
-                    positions[i,j] = 1;
-                } 
-                else
-                {
-                    positions[i,j] = 0;
-                }
-            }
-        }
-
-        return new Level(positions);
-    }
-
     private Alien[,] GenerateAliens(Level level)
     {
         int[,] positions = level.getLevel();
