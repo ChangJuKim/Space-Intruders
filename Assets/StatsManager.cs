@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class StatsManager : MonoBehaviour
 {
-    public PlayerStats basePlayerStats;
-    public AlienStats baseAlienStats;
 
-    public PlayerStats playerStats;
-    public AlienStats alienStats;
+    [SerializeField] private PlayerStats basePlayerStats;
+    [SerializeField] private AlienStats baseAlienStats;
+
+    [SerializeField] private PlayerStats playerStats;
+    [SerializeField] private AlienStats alienStats;
 
     // Start is called before the first frame update
     void Start()

@@ -3,14 +3,9 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-// TODO: Find a better way to do these loads and unloads without creating a million scriptableObjects and functions
 public class ManageSceneHandler : MonoBehaviour
 {
-    public StringVariable managerSceneName;
-    public StringVariable playerVictorySceneName;
-    public StringVariable playerLoseSceneName;
-    public StringVariable gameSceneName;
+    [SerializeField] private StringVariable managerSceneName;
 
     public void UnloadScenesExceptManager()
     {
@@ -24,39 +19,9 @@ public class ManageSceneHandler : MonoBehaviour
         }
     }
 
-    public void ActivateVictoryScene()
+    public void LoadSceneAndSetActive(StringVariable sceneName)
     {
-        LoadSceneAndSetActive(playerVictorySceneName.value);
-    }
-
-    public void DeactivateVictoryScene()
-    {
-        SceneManager.UnloadSceneAsync(playerVictorySceneName.value);
-    }
-
-    public void ActivateGameOverScene()
-    {
-        LoadSceneAndSetActive(playerLoseSceneName.value);
-    }
-
-    public void DeactivateGameOverScene()
-    {
-        SceneManager.UnloadSceneAsync(playerLoseSceneName.value);
-    }
-
-    public void ActivateGameScene()
-    {
-        LoadSceneAndSetActive(gameSceneName.value);
-    }
-
-    public void DeactivateGameScene()
-    {
-        SceneManager.UnloadSceneAsync(gameSceneName.value);
-    }
-
-    private void LoadSceneAndSetActive(string sceneName)
-    {
-        StartCoroutine(LoadSceneAndSetActiveHelper(sceneName));
+        StartCoroutine(LoadSceneAndSetActiveHelper(sceneName.value));
     }
 
     private IEnumerator LoadSceneAndSetActiveHelper(string sceneName)

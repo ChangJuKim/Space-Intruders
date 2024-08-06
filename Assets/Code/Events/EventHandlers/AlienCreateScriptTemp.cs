@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AlienCreateScriptTemp : MonoBehaviour
 {
-    public GameObject alien;
+    [SerializeField] private GameObject alien;
 
     public void CreateAlien()
     {

@@ -14,7 +14,7 @@ public class EffectAddBounce : ICardEffect
         if (bulletScript != null)
         {
             bool hasBounce = bulletScript.toggleBounce();
-            bulletScript.bulletData.firingAngle = hasBounce ? firingAngle : 0;
+            bulletScript.BulletData.FiringAngle = hasBounce ? firingAngle : 0;
         }
     }
 }

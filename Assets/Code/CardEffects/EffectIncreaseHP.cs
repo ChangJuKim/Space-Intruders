@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EffectIncreaseHP : ICardEffect
 {
-    public HP hp;
+    [SerializeField] private HP hp;
 
     public void PerformEffect()
     {

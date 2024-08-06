@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EffectIncreaseSpeed : ICardEffect
 {
-    public FloatVariable speed;
-    public float amount;
+    [SerializeField] private FloatVariable speed;
+    [SerializeField] private float amount;
 
     public void PerformEffect()
     {

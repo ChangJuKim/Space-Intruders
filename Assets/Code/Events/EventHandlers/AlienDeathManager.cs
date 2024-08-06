@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AlienManagerScript : MonoBehaviour
 {
-    public GameEvent playerVictoryEvent;
+    [SerializeField] private GameEvent playerVictoryEvent;
 
     public void CheckAllDead()
     {

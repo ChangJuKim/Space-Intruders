@@ -5,8 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Attack Speed", menuName = "ScriptableObjects/Stats/AttackSpeed")]
 public class AttackSpeed : ScriptableObject
 {
-    public float baseAttackSpeed;
-    public float attackSpeedRatio;
+    [SerializeField]
+    private float baseAttackSpeed;
+    [SerializeField]
+    private float attackSpeedRatio;
 
     private float bonusAttackSpeed; // Additive bonuses
     private float modifier; // Multiplicative. Mostly only used with debuffs

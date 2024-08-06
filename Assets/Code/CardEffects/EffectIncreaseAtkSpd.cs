@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class EffectIncreaseAtkSpd : ICardEffect
 {
-    public Weapon weapon;
-    public float amount;
+    [SerializeField] private Weapon weapon;
+    [SerializeField] private float amount;
 
     public void PerformEffect()
     {

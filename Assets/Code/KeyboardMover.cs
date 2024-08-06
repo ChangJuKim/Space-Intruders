@@ -13,8 +13,8 @@ public class KeyboardMover : MonoBehaviour
         [Serializable]
         public class MoveAxis
         {
-            public KeyCode Positive;
-            public KeyCode Negative;
+            [SerializeField] private KeyCode Positive;
+            [SerializeField] private KeyCode Negative;
 
             public MoveAxis(KeyCode positive, KeyCode negative)
             {
@@ -31,9 +31,9 @@ public class KeyboardMover : MonoBehaviour
             }
         }
 
-        public FloatVariable MoveRate;
-        public MoveAxis Horizontal = new MoveAxis(KeyCode.D, KeyCode.A);
-        public MoveAxis Vertical = new MoveAxis(KeyCode.W, KeyCode.S);
+        [SerializeField] private FloatVariable MoveRate;
+        [SerializeField] private MoveAxis Horizontal = new MoveAxis(KeyCode.D, KeyCode.A);
+        [SerializeField] private MoveAxis Vertical = new MoveAxis(KeyCode.W, KeyCode.S);
 
         private void Update()
         {

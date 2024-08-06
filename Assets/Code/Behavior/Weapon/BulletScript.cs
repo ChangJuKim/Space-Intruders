@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    public Rigidbody2D rigidBody;
+    [SerializeField] private Rigidbody2D rigidBody;
 
-    public GameEvent playerLossEvent;
+    [SerializeField] private GameEvent playerLossEvent;
 
-    public BulletData bulletData;
-    public BulletData baseBulletData; // TODO: Temporary fix for getting base bullet
+    [SerializeField] private BulletData bulletData;
+    [SerializeField] private BulletData baseBulletData; // TODO: Temporary fix for getting base bullet
 
     private Vector2 direction;
-    
+
+    public BulletData BulletData { get => bulletData; set => bulletData = value; }
+
     // TODO: Remove this script somehow and make bullets have a constant feature?
     // Or make bullets extend from a bullet class that has some standard features? IDK
     // Start is called before the first frame update
     void Start()
     {
         direction = getDirection();
-        rigidBody.velocity = direction * bulletData.speed;
+        rigidBody.velocity = direction * BulletData.Speed;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -31,7 +33,7 @@ public class BulletScript : MonoBehaviour
                 break;
 
             case "Wall":
-                if (bulletData.isBounce)
+                if (BulletData.IsBounce)
                 {
                     Bounce(collision.contacts[0].normal);
                 }
@@ -54,19 +56,19 @@ public class BulletScript : MonoBehaviour
     private void Bounce(Vector2 normal)
     {
         direction = Vector2.Reflect(direction, normal).normalized;
-        rigidBody.velocity = direction * bulletData.speed;
+        rigidBody.velocity = direction * BulletData.Speed;
     }
 
     // Returns the new value of bounce
     public bool toggleBounce()
     {
-        bulletData.isBounce = !bulletData.isBounce;
-        return bulletData.isBounce;
+        BulletData.IsBounce = !BulletData.IsBounce;
+        return BulletData.IsBounce;
     }
 
     private Vector2 getDirection()
     {
-        float angleInRadians = bulletData.firingAngle / 2 * Mathf.PI/180;
+        float angleInRadians = BulletData.FiringAngle / 2 * Mathf.PI/180;
         float yVelocity = 1;
         float xVariation = Mathf.Tan(angleInRadians) * yVelocity;
         return new Vector2(Random.Range(-1 * xVariation, xVariation), yVelocity).normalized;
@@ -74,7 +76,7 @@ public class BulletScript : MonoBehaviour
 
     public void ResetTo()
     {
-        bulletData.ResetTo(baseBulletData);
+        BulletData.ResetTo(baseBulletData);
     }
 }
 

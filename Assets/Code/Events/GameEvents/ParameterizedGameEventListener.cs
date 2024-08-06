@@ -5,8 +5,8 @@ using UnityEngine.Events;
 
 public class ParameterizedGameEventListener : MonoBehaviour
 {
-    public ParameterizedGameEvent Event;
-    public UnityEvent<EventParametersBase> Response;
+    [SerializeField] private ParameterizedGameEvent Event;
+    [SerializeField] private UnityEvent<EventParametersBase> Response;
 
     private void OnEnable()
     {

@@ -6,13 +6,15 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Game Event", menuName = "ScriptableObjects/GameEvent")]
 public class GameEvent : ScriptableObject
 {
-    public bool oncePerFrame;
+    [SerializeField] private bool oncePerFrame;
     protected int lastFrameRaised = -1;
     private List<GameEventListener> listeners = new List<GameEventListener>();
 
+    public bool OncePerFrame { get => oncePerFrame; set => oncePerFrame = value; }
+
     public void Raise()
     {
-        if (!oncePerFrame || lastFrameRaised != Time.frameCount)
+        if (!OncePerFrame || lastFrameRaised != Time.frameCount)
         {
             for (int i = listeners.Count - 1; i >= 0; i--)
             {

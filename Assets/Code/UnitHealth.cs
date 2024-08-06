@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New HP", menuName = "ScriptableObjects/HP")]
 public class HP : ScriptableObject
 {
-    public FloatVariable hp;
+    [SerializeField] private FloatVariable hp;
 
     public void DecreaseHP(float damage)
     {

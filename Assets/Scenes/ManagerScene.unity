@@ -155,6 +155,7 @@ Transform:
   - {fileID: 1032381028}
   - {fileID: 1578802738}
   - {fileID: 628787921}
+  - {fileID: 1695205874}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &359943726
@@ -188,9 +189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   managerSceneName: {fileID: 11400000, guid: 9aa6abd944834d94996910578d641147, type: 2}
-  playerVictorySceneName: {fileID: 11400000, guid: 347bde640910d5543a46b6e7f7189349, type: 2}
-  playerLoseSceneName: {fileID: 11400000, guid: 87d268ac950e89949be9830680d28ad6, type: 2}
-  gameSceneName: {fileID: 11400000, guid: e61a072af4ef3094eb2eb3c3aa8b508b, type: 2}
 --- !u!4 &359943728
 Transform:
   m_ObjectHideFlags: 0
@@ -454,11 +452,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 359943727}
         m_TargetAssemblyTypeName: ManageSceneHandler, Assembly-CSharp
-        m_MethodName: ActivateVictoryScene
-        m_Mode: 1
+        m_MethodName: LoadSceneAndSetActive
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 347bde640910d5543a46b6e7f7189349, type: 2}
+          m_ObjectArgumentAssemblyTypeName: StringVariable, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -510,12 +508,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 359943727}
-        m_TargetAssemblyTypeName: ShowGameOverSceneHandler, Assembly-CSharp
-        m_MethodName: ActivateGameOverScene
-        m_Mode: 1
+        m_TargetAssemblyTypeName: ManageSceneHandler, Assembly-CSharp
+        m_MethodName: LoadSceneAndSetActive
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 87d268ac950e89949be9830680d28ad6, type: 2}
+          m_ObjectArgumentAssemblyTypeName: StringVariable, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -622,11 +620,11 @@ Transform:
   m_GameObject: {fileID: 1695205873}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 921.5702, y: 508.54553, z: 1.7981552}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 13614376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1695205875
 MonoBehaviour:
@@ -658,11 +656,11 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 359943727}
         m_TargetAssemblyTypeName: ManageSceneHandler, Assembly-CSharp
-        m_MethodName: ActivateGameScene
-        m_Mode: 1
+        m_MethodName: LoadSceneAndSetActive
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: e61a072af4ef3094eb2eb3c3aa8b508b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: StringVariable, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -690,7 +688,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1821999668}
   - component: {fileID: 1821999667}
-  - component: {fileID: 1821999669}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -725,18 +722,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 700754510}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1821999669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821999666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2bbec010e1242043b54bfde4f88597d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -744,4 +729,3 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 700754510}
   - {fileID: 13614376}
-  - {fileID: 1695205874}

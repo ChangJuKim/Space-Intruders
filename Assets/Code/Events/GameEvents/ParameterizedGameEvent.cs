@@ -10,7 +10,7 @@ public class ParameterizedGameEvent : GameEvent
 
     public void Raise(EventParametersBase parameters)
     {
-        if (!oncePerFrame || lastFrameRaised != Time.frameCount)
+        if (!OncePerFrame || lastFrameRaised != Time.frameCount)
         {
             for (int i = parameterizedListeners.Count - 1; i >= 0; i--)
             {

@@ -106,16 +106,16 @@ public class CreateLevel : MonoBehaviour
             yield return null;
         }
 
-        float xDelta = (float)Mathf.Abs(dimensions.rightX - dimensions.leftX) / (aliens.GetLength(1) - 1);
-        float yDelta = (float)Mathf.Abs(dimensions.bottomY - dimensions.topY) / (aliens.GetLength(0) - 1);
+        float xDelta = (float)Mathf.Abs(dimensions.RightX - dimensions.LeftX) / (aliens.GetLength(1) - 1);
+        float yDelta = (float)Mathf.Abs(dimensions.BottomY - dimensions.TopY) / (aliens.GetLength(0) - 1);
 
         
         for (int i = 0; i < aliens.GetLength(0); i++)
         {
-            float y = dimensions.topY - i * yDelta;
+            float y = dimensions.TopY - i * yDelta;
             for (int j = 0; j < aliens.GetLength(1); j++)
             {
-                float x = dimensions.leftX + j * xDelta;
+                float x = dimensions.LeftX + j * xDelta;
 
                 if (aliens[i, j] != null)
                 {

@@ -7,12 +7,12 @@ public abstract class Weapon : ScriptableObject
 {
     public Vector3 spawnOffset;
 
-    public AttackSpeed attackSpeed;
+    [SerializeField] private AttackSpeed attackSpeed;
     private float cooldown;
     private float baseCooldown;
 
-    public float damage;
-    public GameObject bulletModel;
+    [SerializeField] private float damage;
+    [SerializeField] private GameObject bulletModel;
 
     public void Fire(Transform transform)
     {

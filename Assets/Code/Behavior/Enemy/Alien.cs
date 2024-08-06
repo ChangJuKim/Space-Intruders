@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class Alien : MonoBehaviour
 {
-    public AlienStats alienData;
+    [SerializeField] private AlienStats alienData;
     private float moveCooldown;
-    public GameEvent gameOverEvent;
-    public GameEvent alienDeathEvent;
+    [SerializeField] private GameEvent gameOverEvent;
+    [SerializeField] private GameEvent alienDeathEvent;
 
     public void Start()
     {
@@ -31,12 +31,12 @@ public abstract class Alien : MonoBehaviour
 
     private void ResetMoveCooldown()
     {
-        moveCooldown = alienData.moveCooldown;
+        moveCooldown = alienData.MoveCooldown;
     }
 
     private void Jump()
     {
-        transform.position += Vector3.down * alienData.moveDistance;
+        transform.position += Vector3.down * alienData.MoveDistance;
     }
 
     private void OnDestroy()
