@@ -75,13 +75,14 @@ public abstract class Weapon : ScriptableObject
     }
 
     // TODO: Need to fix this architecture
+    // increase attackspeed is just calling attack speed and this class needs to understand the attack speed underlying structure to understand why it's calling GetCooldown()
     public void IncreaseAttackSpeed(float percent)
     {
         attackSpeed.AddBonusAttackSpeed(percent);
         baseCooldown = attackSpeed.GetCooldown();
     }
 
-    // TODO: Need to fix this architecture
+    // TODO: Need to fix this architecture too
     public void DecreaseAttackSpeed(float percent)
     {
         attackSpeed.DecreaseBonusAttackSpeed(percent);

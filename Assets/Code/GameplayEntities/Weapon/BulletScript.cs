@@ -9,15 +9,15 @@ public class BulletScript : MonoBehaviour
     [SerializeField] private GameEvent playerLossEvent;
 
     [SerializeField] private BulletData bulletData;
-    [SerializeField] private BulletData baseBulletData; // TODO: Temporary fix for getting base bullet
+    // TODO: Temporary fix for getting base bullet to be used in ResetTo
+    // Doing it this way because bullet is a prefab, and it's somewhat difficult to hold bulletData in the weapon instead of in the bullet 
+    [SerializeField] private BulletData baseBulletData;
 
     private Vector2 direction;
 
     public BulletData BulletData { get => bulletData; set => bulletData = value; }
 
-    // TODO: Remove this script somehow and make bullets have a constant feature?
-    // Or make bullets extend from a bullet class that has some standard features? IDK
-    // Start is called before the first frame update
+    // TODO: Consider refactoring bullets somehow. Ideally it has multiple fields or interfaces (e.g. IBounceable, IHasPoison) or something
     void Start()
     {
         direction = getDirection();
@@ -74,6 +74,7 @@ public class BulletScript : MonoBehaviour
         return new Vector2(Random.Range(-1 * xVariation, xVariation), yVelocity).normalized;
     }
 
+    // Ideally can just call bullet's ResetTo or something
     public void ResetTo()
     {
         BulletData.ResetTo(baseBulletData);
