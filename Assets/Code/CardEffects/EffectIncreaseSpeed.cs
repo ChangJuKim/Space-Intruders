@@ -9,6 +9,6 @@ public class EffectIncreaseSpeed : ICardEffect
 
     public void PerformEffect()
     {
-        speed.value += amount;
+        speed.Value += amount;
     }
 }

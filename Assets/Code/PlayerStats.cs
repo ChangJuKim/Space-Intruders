@@ -13,7 +13,7 @@ public class PlayerStats : CharacterStats
     {
         Debug.Log("Reset player stats");
         Health.ResetTo(other.Health);
-        moveSpeed.value = other.moveSpeed.value;
+        moveSpeed.Value = other.moveSpeed.Value;
         weapon.ResetTo(other.weapon);
     }
 }

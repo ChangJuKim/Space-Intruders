@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Integer", menuName = "ScriptableObjects/Variables/IntVariable")]
 public class IntVariable : ScriptableObject
 {
-    public int value;
+    [SerializeField] private int value;
 
     public static implicit operator int(IntVariable floatVariable)
     {

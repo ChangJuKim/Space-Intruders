@@ -5,5 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New String", menuName = "ScriptableObjects/Variables/StringVariable")]
 public class StringVariable : ScriptableObject
 {
-    public string value;
+    [SerializeField] private readonly string value;
+
+    public string Value { get => value; }
 }

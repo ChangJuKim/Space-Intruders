@@ -4,12 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class CreateLevel : MonoBehaviour
 {
-
-    public IntVariable level;
-    public Alien alien;
-
-    public AlienSetupDimensions dimensions;
-
+    [SerializeField] private Alien alien;
+    [SerializeField] private AlienSetupDimensions dimensions;
 
     // Start is called before the first frame update
     void Start()

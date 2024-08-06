@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "LoadLevelParams", menuName = "ScriptableObjects/Variables/LoadLevelParam")]
 public class LoadLevelParameters : EventParametersBase
 {
-    public Alien[] alienSetup;
+    [SerializeField] private Alien[] alienSetup;
 }

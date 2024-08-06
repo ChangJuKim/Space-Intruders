@@ -6,20 +6,22 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Float", menuName = "ScriptableObjects/Variables/FloatVariable")]
 public class FloatVariable : ScriptableObject
 {
-    public float value;
+    [SerializeField] private float value;
+
+    public float Value { get => value; set => this.value = value; }
 
     public static implicit operator float(FloatVariable floatVariable)
     {
-        return floatVariable.value;
+        return floatVariable.Value;
     }
 
     public override string ToString()
     {
-        return value.ToString();
+        return Value.ToString();
     }
 
     public void ResetTo(float other)
     {
-        value = other;
+        Value = other;
     }
 }

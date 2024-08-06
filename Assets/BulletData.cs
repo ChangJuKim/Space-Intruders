@@ -5,13 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New BulletData", menuName = "ScriptableObjects/BulletData")]
 public class BulletData : ScriptableObject
 {
-    [SerializeField]
-    private float speed;
-    [SerializeField]
-    private bool isBounce;
+    [SerializeField] private float speed;
+    [SerializeField] private bool isBounce;
     // Total variation in degrees
-    [SerializeField]
-    private float firingAngle;
+    [SerializeField] private float firingAngle;
 
     public float Speed { get => speed; set => speed = value; }
     public bool IsBounce { get => isBounce; set => isBounce = value; }

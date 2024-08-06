@@ -14,7 +14,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
     [SerializeField] private Image bgSpriteImage;
     [SerializeField] private CardType cardType;
 
-    public GameEvent startGameEvent;
+    [SerializeField] private GameEvent startGameEvent;
 
     // Start is called before the first frame update
     void Start()

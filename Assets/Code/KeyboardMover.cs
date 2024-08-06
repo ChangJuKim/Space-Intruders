@@ -39,7 +39,7 @@ public class KeyboardMover : MonoBehaviour
         {
             Vector3 moveNormal = new Vector3(Horizontal, Vertical, 0.0f).normalized;
 
-            transform.position += moveNormal * Time.deltaTime * MoveRate.value;
+            transform.position += moveNormal * Time.deltaTime * MoveRate.Value;
         }
    
 }

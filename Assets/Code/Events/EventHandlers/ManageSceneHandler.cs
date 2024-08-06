@@ -12,7 +12,7 @@ public class ManageSceneHandler : MonoBehaviour
         for (int i = 0; i < SceneManager.sceneCount; i++)
         {
             Scene scene = SceneManager.GetSceneAt(i);
-            if (scene.name != managerSceneName.value)
+            if (scene.name != managerSceneName.Value)
             {
                 AsyncOperation asyncOperation = SceneManager.UnloadSceneAsync(scene);
             }
@@ -21,7 +21,7 @@ public class ManageSceneHandler : MonoBehaviour
 
     public void LoadSceneAndSetActive(StringVariable sceneName)
     {
-        StartCoroutine(LoadSceneAndSetActiveHelper(sceneName.value));
+        StartCoroutine(LoadSceneAndSetActiveHelper(sceneName.Value));
     }
 
     private IEnumerator LoadSceneAndSetActiveHelper(string sceneName)

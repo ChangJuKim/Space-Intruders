@@ -17,9 +17,9 @@ public class AlienStats : CharacterStats
 
     public void ResetTo(AlienStats baseAlienStats)
     {
-        MoveCooldown.value = baseAlienStats.MoveCooldown.value;
-        MoveDistance.value = baseAlienStats.MoveDistance.value;
+        MoveCooldown.Value = baseAlienStats.MoveCooldown.Value;
+        MoveDistance.Value = baseAlienStats.MoveDistance.Value;
         //weapon = baseAlienStats.weapon;
-        finishLine.value = baseAlienStats.finishLine.value;
+        finishLine.Value = baseAlienStats.finishLine.Value;
     }
 }
