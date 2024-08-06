@@ -74,7 +74,7 @@ public static class LevelPresets
         {
             while (set.Contains(index))
             {
-                index = UnityEngine.Random.Range(0, levelPresets.GetLength(0));
+                index = Random.Range(0, levelPresets.GetLength(0));
             }
         }
 

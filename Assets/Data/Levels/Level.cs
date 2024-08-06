@@ -4,35 +4,16 @@ using UnityEngine;
 
 public class Level
 {
-    private int[,] level;
-    private int difficulty;
-
-    public Level(int[,] level, int difficulty)
-    {
-        this.level = level;
-        this.difficulty = difficulty;
-    }
+    private readonly int[,] level;
 
     public Level(int[,] level)
     {
         this.level = level;
-        difficulty = 0;
-    }
-
-    public Level(int difficulty)
-    {
-        level = null;
-        this.difficulty = difficulty;
     }
 
     public int[,] getLevel()
     {
         return level;
-    }
-
-    public int getDifficulty()
-    {
-        return difficulty;
     }
 
     public override string ToString()
