@@ -68,10 +68,11 @@ public class BulletScript : MonoBehaviour
 
     private Vector2 getDirection()
     {
-        float angleInRadians = BulletData.FiringAngle / 2 * Mathf.PI/180;
+        float randomAngle = Random.Range(-1 * BulletData.FiringAngle / 2, BulletData.FiringAngle / 2);
+        float angleInRadians = randomAngle * Mathf.PI/180;
         float yVelocity = 1;
-        float xVariation = Mathf.Tan(angleInRadians) * yVelocity;
-        return new Vector2(Random.Range(-1 * xVariation, xVariation), yVelocity).normalized;
+        float xVelocity = Mathf.Tan(angleInRadians) * yVelocity;
+        return new Vector2(xVelocity, yVelocity).normalized;
     }
 
     // Ideally can just call bullet's ResetTo or something
