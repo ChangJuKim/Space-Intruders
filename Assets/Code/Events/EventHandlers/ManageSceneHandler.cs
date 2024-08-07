@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +5,12 @@ using UnityEngine.SceneManagement;
 public class ManageSceneHandler : MonoBehaviour
 {
     [SerializeField] private StringVariable managerSceneName;
+    [SerializeField] private StringVariable mainMenuSceneName;
+
+    void Start()
+    {
+        LoadSceneAndSetActive(mainMenuSceneName);
+    }
 
     public void UnloadScenesExceptManager()
     {
