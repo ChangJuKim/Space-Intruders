@@ -14,16 +14,21 @@ public class StatsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ResetAll();
+    }
+
+    public void ResetAll()
+    {
         ResetPlayerStats();
         ResetAlienStats();
     }
 
-    public void ResetPlayerStats()
+    private void ResetPlayerStats()
     {
         playerStats.ResetTo(basePlayerStats);
     }
 
-    public void ResetAlienStats()
+    private void ResetAlienStats()
     {
         alienStats.ResetTo(baseAlienStats);
     }
