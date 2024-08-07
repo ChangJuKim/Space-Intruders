@@ -9,7 +9,7 @@ public class ManageSceneHandler : MonoBehaviour
 
     public void UnloadScenesExceptManager()
     {
-        for (int i = 0; i < SceneManager.sceneCount; i++)
+        for (int i = SceneManager.sceneCount - 1; i >= 0; i--)
         {
             Scene scene = SceneManager.GetSceneAt(i);
             if (scene.name != managerSceneName.Value)
