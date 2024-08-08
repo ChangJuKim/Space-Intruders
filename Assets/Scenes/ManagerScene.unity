@@ -410,10 +410,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 705284270}
-  - component: {fileID: 705284274}
   - component: {fileID: 705284273}
   - component: {fileID: 705284272}
   - component: {fileID: 705284271}
+  - component: {fileID: 705284274}
+  - component: {fileID: 705284275}
   m_Layer: 0
   m_Name: SceneLoadListener
   m_TagString: Untagged
@@ -592,10 +593,86 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf88f30713065c4d931a62ca85d73b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 6ed2225dd59a1d84ab1edcb2b1ac9774, type: 2}
+  Event: {fileID: 11400000, guid: 0c33f37d13434ec45a3cb589d151afa8, type: 2}
   Response:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1821999667}
+        m_TargetAssemblyTypeName: GameTimeHandler, Assembly-CSharp
+        m_MethodName: PauseTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 359943727}
+        m_TargetAssemblyTypeName: ManageSceneHandler, Assembly-CSharp
+        m_MethodName: LoadSceneAndSetActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 2a2380f56d1e3a74093f49e4b9d9db33, type: 2}
+          m_ObjectArgumentAssemblyTypeName: StringVariable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &705284275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705284269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf88f30713065c4d931a62ca85d73b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: bc95a39ead449ea4789c64dd6b221e00, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1821999667}
+        m_TargetAssemblyTypeName: GameTimeHandler, Assembly-CSharp
+        m_MethodName: ResumeTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 359943727}
+        m_TargetAssemblyTypeName: ManageSceneHandler, Assembly-CSharp
+        m_MethodName: UnloadSingleScene
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 2a2380f56d1e3a74093f49e4b9d9db33, type: 2}
+          m_ObjectArgumentAssemblyTypeName: StringVariable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 359943727}
+        m_TargetAssemblyTypeName: ManageSceneHandler, Assembly-CSharp
+        m_MethodName: SetActiveScene
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: e61a072af4ef3094eb2eb3c3aa8b508b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: StringVariable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &993663238
 GameObject:
   m_ObjectHideFlags: 0

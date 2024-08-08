@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 604892278}
   - component: {fileID: 604892274}
   - component: {fileID: 604892277}
+  - component: {fileID: 604892279}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -317,6 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 11400000, guid: 3d0fb4b672e45f7418ab96c51b3bdf7d, type: 2}
+  gameSceneName: {fileID: 11400000, guid: e61a072af4ef3094eb2eb3c3aa8b508b, type: 2}
 --- !u!61 &604892277
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -433,6 +435,19 @@ CompositeCollider2D:
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
   m_CompositeGameObject: {fileID: 604892269}
+--- !u!114 &604892279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604892269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb8369d241f76e419e437a15b9f4e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseGameEvent: {fileID: 11400000, guid: 0c33f37d13434ec45a3cb589d151afa8, type: 2}
 --- !u!1 &764249937
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +608,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892d0359c22e0504e8f5f1f08c7727d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: {fileID: 0}
   alien: {fileID: 7054477349365905549, guid: 092da64606ef1b04184a3a80bc90a7e9, type: 3}
   dimensions: {fileID: 11400000, guid: fafeca009268ebf4bb5e580c55a115b7, type: 2}
 --- !u!1 &1187789571

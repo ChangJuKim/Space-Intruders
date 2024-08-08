@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WeaponShooter : MonoBehaviour
 {
     [SerializeField] private Weapon weapon;
-
+    [SerializeField] private StringVariable gameSceneName;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,10 @@ public class WeaponShooter : MonoBehaviour
         weapon.DecreaseCooldown(Time.deltaTime);
         if (Input.GetKey(KeyCode.Space))
         {
-            weapon.Fire(transform);
+            if (SceneManager.GetActiveScene().name == gameSceneName.Value)
+            {
+                weapon.Fire(transform);
+            }
         }
     }
 

@@ -19,14 +19,31 @@ public class ManageSceneHandler : MonoBehaviour
             Scene scene = SceneManager.GetSceneAt(i);
             if (scene.name != managerSceneName.Value)
             {
-                AsyncOperation asyncOperation = SceneManager.UnloadSceneAsync(scene);
+                SceneManager.UnloadSceneAsync(scene);
             }
         }
     }
 
+    public void SetActiveScene(StringVariable sceneName)
+    {
+        Scene scene = SceneManager.GetSceneByName(sceneName.Value);
+        SceneManager.SetActiveScene(scene);
+    }
+
+    public void UnloadSingleScene(StringVariable sceneName)
+    {
+        Scene scene = SceneManager.GetSceneByName(sceneName.name);
+        SceneManager.UnloadSceneAsync(scene);
+    }
+
     public void LoadSceneAndSetActive(StringVariable sceneName)
     {
-        StartCoroutine(LoadSceneAndSetActiveHelper(sceneName.Value));
+        string name = sceneName.Value;
+
+        if (!isSceneLoaded(name))
+        {
+            StartCoroutine(LoadSceneAndSetActiveHelper(name));
+        }
     }
 
     private IEnumerator LoadSceneAndSetActiveHelper(string sceneName)
@@ -47,6 +64,19 @@ public class ManageSceneHandler : MonoBehaviour
         {
             Debug.Log("Failed to load the scene: " + sceneName);
         }
+    }
+
+    private bool isSceneLoaded(string sceneName)
+    {
+        for (int i = 0; i < SceneManager.sceneCount; i++)
+        {
+            Scene scene = SceneManager.GetSceneAt(i);
+            if (scene.name == sceneName && scene.isLoaded)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
 }
