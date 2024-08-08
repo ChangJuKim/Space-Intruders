@@ -1360,10 +1360,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3538961741840315630, guid: 3203d3c82f48cde43ad889bd1d3e874e, type: 3}
-      propertyPath: card
-      value: 
-      objectReference: {fileID: 11400000, guid: 938d9c0a8f1b25f49a9b148e3f72b265, type: 2}
-    - target: {fileID: 3538961741840315630, guid: 3203d3c82f48cde43ad889bd1d3e874e, type: 3}
       propertyPath: cardData
       value: 
       objectReference: {fileID: 11400000, guid: 8cb1663adda436b4692a844375102489, type: 2}
@@ -1371,8 +1367,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Card 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6367424500001420174, guid: 3203d3c82f48cde43ad889bd1d3e874e, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: + Move Speed
   desc: +4 Move Speed
-  sprite: {fileID: 21300000, guid: 75d6216fb49e52e48b45a6ea775c63f4, type: 3}
-  bgSprite: {fileID: 21300000, guid: a5c3ad6b9ed50674badae52e0f57d77f, type: 3}
+  sprite: {fileID: 21300000, guid: eb5185fafc4e98e47905413783d743a9, type: 3}
+  bgSprite: {fileID: 21300000, guid: bea37814d4ff5b841bd2703e6a9fecf9, type: 3}
   cardType: 0
   effect:
     rid: 7939299142858440723
