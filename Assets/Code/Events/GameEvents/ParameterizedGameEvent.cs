@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Parameterized Game Event", menuName = "ScriptableObjects/ParameterizedGameEvent")]
+[CreateAssetMenu(fileName = "New Parameterized Game Event", menuName = "ScriptableObjects/Events/ParameterizedGameEvent")]
 public class ParameterizedGameEvent : GameEvent
 {
 

@@ -6,7 +6,7 @@ public enum CardType
     Enemy = 1
 }
 
-[CreateAssetMenu(fileName = "New Card", menuName = "ScriptableObjects/Card")]
+[CreateAssetMenu(fileName = "New Card Data", menuName = "ScriptableObjects/Card/CardData")]
 public class CardData : ScriptableObject
 {
     

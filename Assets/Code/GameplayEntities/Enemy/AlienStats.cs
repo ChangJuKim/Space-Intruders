@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New AlienStats", menuName = "ScriptableObjects/AlienStats")]
+[CreateAssetMenu(fileName = "New AlienStats", menuName = "ScriptableObjects/Stats/AlienStats")]
 public class AlienStats : CharacterStats
 {
     [SerializeField] private FloatVariable moveCooldown;

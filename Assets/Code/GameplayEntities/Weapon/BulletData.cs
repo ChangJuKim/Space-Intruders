@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New BulletData", menuName = "ScriptableObjects/BulletData")]
+[CreateAssetMenu(fileName = "New BulletData", menuName = "ScriptableObjects/Stats/BulletData")]
 public class BulletData : ScriptableObject
 {
     [SerializeField] private float speed;

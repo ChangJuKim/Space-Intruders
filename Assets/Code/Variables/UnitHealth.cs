@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New HP", menuName = "ScriptableObjects/HP")]
+[CreateAssetMenu(fileName = "New HP", menuName = "ScriptableObjects/Stats/HP")]
 public class HP : ScriptableObject
 {
     [SerializeField] private FloatVariable hp;

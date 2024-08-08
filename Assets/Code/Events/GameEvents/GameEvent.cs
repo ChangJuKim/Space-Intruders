@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Game Event", menuName = "ScriptableObjects/GameEvent")]
+[CreateAssetMenu(fileName = "New Game Event", menuName = "ScriptableObjects/Events/GameEvent")]
 public class GameEvent : ScriptableObject
 {
     [SerializeField] private bool oncePerFrame;
