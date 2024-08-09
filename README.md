@@ -18,3 +18,4 @@ I also have periodic updates and demos of my progress on my LinkedIn: https://ww
 
 ## v0.1.0 8/8/2024
 As of now, version 0.1.0 is out featuring several different levels, gradual upgrades throughout the game, and very nice code architecture!
+It is out on Windows. Linux and Mac is having issues.
