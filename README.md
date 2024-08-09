@@ -25,3 +25,9 @@ https://drive.google.com/drive/folders/1WaAQW6dTMNKtWo_hZPvWQLiUadZrHUp5?usp=sha
 1. Install zip file depending on the Windows system
 2. Extract to a folder of choice
 3. Open "Space Intruders.exe"
+
+## Art:
+I got my art from publicly available sources. I'd love to credit these artists so please check out the link below for who and where I got my art from!
+
+https://silk-tub-8b6.notion.site/8-8-2024-Final-Final-Notes-Art-Credit-a1eb8c62368d400a88a7b9af8e04eb9e
+
