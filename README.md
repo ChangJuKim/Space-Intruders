@@ -1,7 +1,7 @@
 # Space-Intruders
 My second project, recreating the arcade game "Space Invaders".
 
-![Demo](./Media/Demo.png)
+![Demo](./Media/Demo.gif)
 
 ## Notion and Journal
 Check out my page for more details about my progress, code structure, and overall thoughts!
