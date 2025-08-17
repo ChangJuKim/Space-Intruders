@@ -1,6 +1,8 @@
 # Space-Intruders
 My second project, recreating the arcade game "Space Invaders".
 
+![Demo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXMwbGtmNjJzYzNwY295eHc4YWx2aG91NjI3bGw5bWhkdXU4Ym0xbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dTKGj6fTghMi7lq3dh/giphy.gif)
+
 ## Notion and Journal
 Check out my page for more details about my progress, code structure, and overall thoughts!
 
